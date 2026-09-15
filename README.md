@@ -66,8 +66,10 @@ BLAKE2b-256 against the digest in Gensyn's ledger.
   the root in the browser. All 11 receipts verify.
 - The same client says its anchors are "still placeholders": the audit tool never
   checks a root against the on-chain transaction. The record only agrees with itself.
-- The authoritative commitments are a file, `logs/state_hashes.jsonl` in the bucket,
-  about 12 MB for the run. The API is a read-through.
+- The authoritative commitments are a file, `logs/state_hashes.jsonl` in the bucket
+  (80,958 rows, 10 MB). The API is a read-through. The ledger's committed hash for audit
+  step N is the log's state hash at step N+1. All 11 audited steps agree. The log is
+  mirrored to the same data set.
 - Anchors go to "Gensyn Testnet" (chain 685685) as calldata to the dead address. They
   commit a 32-byte value; they say nothing about whether the bucket still holds the bytes.
 - Published checkpoints are ~19 GB each (150 files, some over 2 GB); handoffs are ~26 GB

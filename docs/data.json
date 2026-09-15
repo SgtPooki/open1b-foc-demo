@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-15T22:32:02+00:00",
+ "generatedAt": "2026-09-15T23:26:39+00:00",
  "run": "20260722-213626-ad3276b",
  "coverage": {
   "run": "20260722-213626-ad3276b",
@@ -3361,6 +3361,8 @@
      "lossGate": false
     }
    },
+   "logStateHash": "9bef25cdbb77488eb9921ba3312f49df55fd867b6d32e2c671ec21c7f4eac344",
+   "logMatchesLedger": true,
    "predecessorMirror": {
     "kind": "checkpoint",
     "step": 100,
@@ -3889,6 +3891,8 @@
      "lossGate": false
     }
    },
+   "logStateHash": "6fd7588d9dc8535662b9b80da7e00f2cac19c0445574f351fd522e30bac80692",
+   "logMatchesLedger": true,
    "predecessorMirror": {
     "kind": "handoff",
     "step": 101,
@@ -4236,6 +4240,8 @@
      "lossGate": false
     }
    },
+   "logStateHash": "e65f46aecf3ceaf1b497622f6f0b47f14d6c55c4c1128d3d07b43120b112bf2d",
+   "logMatchesLedger": true,
    "predecessorMirror": null,
    "artifactMirror": null
   },
@@ -4346,6 +4352,8 @@
      "lossGate": false
     }
    },
+   "logStateHash": "0d4b42095acc08a427c381c186987960025e5be4c8bae1ffc76a1ae50f8aff81",
+   "logMatchesLedger": true,
    "predecessorMirror": null,
    "artifactMirror": null
   },
@@ -4456,6 +4464,8 @@
      "lossGate": false
     }
    },
+   "logStateHash": "054356121094f4eceba42724bc68a37cb25f35aef8c5c094a02c1ffacd4cf832",
+   "logMatchesLedger": true,
    "predecessorMirror": null,
    "artifactMirror": null
   },
@@ -4566,6 +4576,8 @@
      "lossGate": false
     }
    },
+   "logStateHash": "d0be3e58ffa9d5338b97f4b6d24df640e802f6cc1f48e98652613d3d8be9e863",
+   "logMatchesLedger": true,
    "predecessorMirror": null,
    "artifactMirror": null
   },
@@ -4676,6 +4688,8 @@
      "lossGate": false
     }
    },
+   "logStateHash": "16dbad3a5073d79f5dccbedc1f164699bd6cf0b948fa112ef815dca96547d366",
+   "logMatchesLedger": true,
    "predecessorMirror": null,
    "artifactMirror": null
   },
@@ -4786,6 +4800,8 @@
      "lossGate": false
     }
    },
+   "logStateHash": "75f02647b23228b4723a070c7daa455fada79ece8937f0dcc10c593f9b929b7a",
+   "logMatchesLedger": true,
    "predecessorMirror": null,
    "artifactMirror": null
   },
@@ -4896,6 +4912,8 @@
      "lossGate": false
     }
    },
+   "logStateHash": "398b1da0298a15b519be7850d06aed4fc48b7bdddcf203079023022b16128098",
+   "logMatchesLedger": true,
    "predecessorMirror": null,
    "artifactMirror": null
   },
@@ -5006,6 +5024,8 @@
      "lossGate": false
     }
    },
+   "logStateHash": "ee941f794537723b6653361b545f9813c4d00dab8968c9b55ffe51a4345775d3",
+   "logMatchesLedger": true,
    "predecessorMirror": null,
    "artifactMirror": null
   },
@@ -5116,6 +5136,8 @@
      "lossGate": false
     }
    },
+   "logStateHash": "885016d1b684746022e4e280bd58e6093efa0f075fda159d776f8ab879821f42",
+   "logMatchesLedger": true,
    "predecessorMirror": null,
    "artifactMirror": null
   }
@@ -8771,7 +8793,7 @@
     "app": "open1b-foc-demo"
    }
   },
-  "generatedAt": "2026-09-15T22:32:02+00:00"
+  "generatedAt": "2026-09-15T23:26:39+00:00"
  },
  "pieces": [
   {
@@ -9193,6 +9215,28 @@
     }
    ],
    "uploadedAt": "2026-09-15T22:32:02+00:00"
+  },
+  {
+   "kind": "commitments-log",
+   "step": 0,
+   "source": "gs://gensyn-open-1b/logs/state_hashes.jsonl",
+   "packaging": "raw",
+   "size": 10569883,
+   "files": null,
+   "blake2b256": "073e3486e4e14ffe5fb0c07e830bfdb74c8c3dd276ad9d785c2bae8d4a44b551",
+   "sha256": "53e556e8b977f4e17b0ebf04fd18de2e18a00d8fb82b914cff7c034f1563510c",
+   "parts": [
+    {
+     "index": 0,
+     "size": 10569883,
+     "blake2b256": "073e3486e4e14ffe5fb0c07e830bfdb74c8c3dd276ad9d785c2bae8d4a44b551",
+     "sha256": "53e556e8b977f4e17b0ebf04fd18de2e18a00d8fb82b914cff7c034f1563510c",
+     "rootCid": "bafybeibrqeep43fdzye7i7mxbzg2r76yc3vfr24of5xnq6rtmo47kccbbu",
+     "pieceCid": "bafkzcibfvdtpeaqtrdr7h7fbc4m7iqhrn2qno473qu2cmofkst3nnrpqb466aawxtyeq",
+     "pieceId": 46
+    }
+   ],
+   "uploadedAt": "2026-09-15T23:26:39+00:00"
   }
  ]
 }

@@ -10,7 +10,7 @@
    "app": "open1b-foc-demo"
   }
  },
- "generatedAt": "2026-09-15T22:32:02+00:00",
+ "generatedAt": "2026-09-15T23:26:39+00:00",
  "pieces": [
   {
    "kind": "handoff",
@@ -431,6 +431,28 @@
     }
    ],
    "uploadedAt": "2026-09-15T22:32:02+00:00"
+  },
+  {
+   "kind": "commitments-log",
+   "step": 0,
+   "source": "gs://gensyn-open-1b/logs/state_hashes.jsonl",
+   "packaging": "raw",
+   "size": 10569883,
+   "files": null,
+   "blake2b256": "073e3486e4e14ffe5fb0c07e830bfdb74c8c3dd276ad9d785c2bae8d4a44b551",
+   "sha256": "53e556e8b977f4e17b0ebf04fd18de2e18a00d8fb82b914cff7c034f1563510c",
+   "parts": [
+    {
+     "index": 0,
+     "size": 10569883,
+     "blake2b256": "073e3486e4e14ffe5fb0c07e830bfdb74c8c3dd276ad9d785c2bae8d4a44b551",
+     "sha256": "53e556e8b977f4e17b0ebf04fd18de2e18a00d8fb82b914cff7c034f1563510c",
+     "rootCid": "bafybeibrqeep43fdzye7i7mxbzg2r76yc3vfr24of5xnq6rtmo47kccbbu",
+     "pieceCid": "bafkzcibfvdtpeaqtrdr7h7fbc4m7iqhrn2qno473qu2cmofkst3nnrpqb466aawxtyeq",
+     "pieceId": 46
+    }
+   ],
+   "uploadedAt": "2026-09-15T23:26:39+00:00"
   }
  ]
 }

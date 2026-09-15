@@ -22,6 +22,13 @@ mirror = json.load(open(os.path.join(ROOT, "data", "mirror.json")))
 by_source = {p["source"]: p for p in mirror["pieces"]}
 
 ledger = [json.loads(l) for l in open(os.path.join(API, "ledger.jsonl")) if l.strip()]
+# The run's own commitments file. The ledger's committed hash for audit step N is the
+# log's state_hash at step N+1: the audit starts from N and commits the state after it.
+log = {}
+for l in open(os.path.join(ROOT, "data", "state_hashes.jsonl")):
+    if l.strip():
+        row = json.loads(l)
+        log[row["step"]] = row["state_hash"]
 receipts = {step_of(p, "receipt"): load(os.path.basename(p)) for p in glob.glob(f"{API}/receipt-*.json")}
 anchors = {step_of(p, "anchor"): load(os.path.basename(p)) for p in glob.glob(f"{API}/anchor-*.json")}
 segments = {step_of(p, "segment"): load(os.path.basename(p)) for p in glob.glob(f"{API}/segment-*.json")}
@@ -34,6 +41,8 @@ for row in ledger:
     steps.append({
         **row,
         "receipt": r,
+        "logStateHash": log.get(row["step"] + 1),
+        "logMatchesLedger": log.get(row["step"] + 1) == row["committed_state_hash"],
         "predecessorMirror": by_source.get(r["predecessor"]["uri"]),
         "artifactMirror": by_source.get(row["artifact"]),
     })
@@ -51,4 +60,4 @@ out = {
 }
 with open(os.path.join(ROOT, "docs", "data.json"), "w") as f:
     json.dump(out, f, indent=1)
-print(f"steps={len(steps)} mirrored_steps={sum(1 for s in steps if s['artifactMirror'])} pieces={len(mirror['pieces'])}")
+print(f"log_matches={sum(1 for s in steps if s['logMatchesLedger'])}/{len(steps)} steps={len(steps)} mirrored_steps={sum(1 for s in steps if s['artifactMirror'])} pieces={len(mirror['pieces'])}")

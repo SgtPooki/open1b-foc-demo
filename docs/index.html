@@ -159,6 +159,7 @@ function stepView(id) {
   <dl class="kv">
     <dt>Committed by Gensyn</dt><dd class="hash">${r.committed}</dd>
     <dt>Reproduced by auditor</dt><dd class="hash">${r.reproduced} ${r.committed === r.reproduced ? '<span class="badge ok">match</span>' : '<span class="badge bad">mismatch</span>'}</dd>
+    <dt>In the run's log</dt><dd class="hash">${s.logStateHash ?? '—'} ${s.logMatchesLedger ? '<span class="badge ok">logs/state_hashes.jsonl, step ' + (s.step + 1) + '</span>' : '<span class="badge bad">not in log</span>'}</dd>
     <dt>Artifact digest</dt><dd class="hash">${s.artifact_digest} <span class="note">BLAKE2b-256 of the handoff bytes (determined empirically; Gensyn does not label the algorithm)</span></dd>
   </dl>
   <h3>The bytes</h3>
@@ -245,8 +246,9 @@ function focView() {
     <dt>Snapshot</dt><dd>${esc(f.generatedAt)}</dd>
   </dl>
   <h3>Pieces</h3>
+  <p class="note">The commitments log is the run's authoritative list of state hashes (Gensyn's client treats the API as a read-through of it). It is mirrored here too, so the record and the bytes it describes sit in the same data set.</p>
   <table><thead><tr><th>Kind</th><th>Step</th><th>Source</th><th>Size</th><th>BLAKE2b-256</th><th>Pieces</th></tr></thead><tbody>
-  ${D.pieces.map(p => `<tr><td>${esc(p.kind)}</td><td><a href="#/step/${p.step}">${p.step}</a></td><td class="mono">${esc(p.source)}</td><td>${gb(p.size)}</td>
+  ${D.pieces.map(p => `<tr><td>${esc(p.kind)}</td><td>${p.step ? `<a href="#/step/${p.step}">${p.step}</a>` : 'run'}</td><td class="mono">${esc(p.source)}</td><td>${gb(p.size)}</td>
     <td class="mono">${p.blake2b256 ? short(p.blake2b256, 12) : '—'}</td><td>${p.parts.map(x => `<a class="mono" href="https://pdp.vxb.ai/calibration/piece/${x.pieceCid}">#${x.pieceId}</a>`).join(' ')}</td></tr>`).join('')}
   </tbody></table>
   <h3>Mirror the rest</h3>
