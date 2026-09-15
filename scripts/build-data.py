@@ -49,6 +49,6 @@ out = {
     "foc": {k: v for k, v in mirror.items() if k != "pieces"},
     "pieces": mirror["pieces"],
 }
-with open(os.path.join(ROOT, "site", "data.json"), "w") as f:
+with open(os.path.join(ROOT, "docs", "data.json"), "w") as f:
     json.dump(out, f, indent=1)
 print(f"steps={len(steps)} mirrored_steps={sum(1 for s in steps if s['artifactMirror'])} pieces={len(mirror['pieces'])}")

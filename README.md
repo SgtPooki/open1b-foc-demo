@@ -20,15 +20,15 @@ data/gensyn-api/   snapshot of open1b.gensyn.ai/v1 for every audited step (2026-
 data/mirror.json   what was uploaded: data set, pieces, digests
 scripts/mirror.py  split an artifact into 1000 MiB pieces and upload with filecoin-pin
 scripts/verify.sh  rebuild an artifact from its pieces and compare BLAKE2b-256
-scripts/build-data.py  merge the two into site/data.json
-site/              static site, no build step
+scripts/build-data.py  merge the two into docs/data.json
+docs/              static site, no build step (served by GitHub Pages)
 ```
 
 ## Run
 
 ```
 python3 scripts/build-data.py
-python3 -m http.server -d site 8080
+python3 -m http.server -d docs 8080
 ```
 
 ## Mirror an artifact
