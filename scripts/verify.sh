@@ -22,8 +22,9 @@ n=$(python3 -c "import json,sys; print(len(json.loads(sys.argv[1])['parts']))" "
 for i in $(seq 0 $((n - 1))); do
   read -r piece root < <(python3 -c "import json,sys; p=json.loads(sys.argv[1])['parts'][$i]; print(p['pieceCid'], p['rootCid'])" "$entry")
   echo "part $i/$((n - 1)): $piece"
-  curl -fsSL "$svc/piece/$piece" -o "$out/part.car"
-  rm -rf "$out/part"; npx --yes ipfs-car unpack "$out/part.car" --root "$root" --output "$out/part" >/dev/null
+  car="$out/$piece.car"
+  [ -s "$car" ] || curl -fsSL --retry 5 --retry-all-errors --retry-delay 5 "$svc/piece/$piece" -o "$car"
+  rm -rf "$out/part"; npx --yes ipfs-car unpack "$car" --root "$root" --output "$out/part" >/dev/null
   cat "$(find "$out/part" -type f | head -1)" >> "$out/artifact"
 done
 

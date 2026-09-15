@@ -53,7 +53,9 @@ scripts/verify.sh gs://gensyn-open-1b/open-1b/handoffs/step_000000101/handoff.sa
 ```
 
 Fetches each piece's CAR from the storage provider, unpacks, concatenates, and compares
-BLAKE2b-256 against the digest in Gensyn's ledger.
+BLAKE2b-256 against the digest in Gensyn's ledger. Run on 2026-09-15 for the step 101
+handoff: 25 pieces, 25.7 GB, 14 minutes, digest `c851a696…` reproduced. Pieces are cached
+in the output directory, so a rerun only refetches what failed.
 
 ## What was learned about Gensyn's record
 
