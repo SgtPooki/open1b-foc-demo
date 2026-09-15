@@ -1,0 +1,8122 @@
+{
+ "generatedAt": null,
+ "run": "20260722-213626-ad3276b",
+ "coverage": {
+  "run": "20260722-213626-ad3276b",
+  "totalSteps": 80957,
+  "totalSegments": 810,
+  "stepsAudited": 11,
+  "segmentsConfirmed": 0,
+  "openToAudit": 810,
+  "activeClaims": 7,
+  "contributors": 4,
+  "segments": [
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "claimed",
+    3
+   ],
+   [
+    "claimed",
+    1
+   ],
+   [
+    "claimed",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "claimed",
+    1
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "claimed",
+    4
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "claimed",
+    2
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ],
+   [
+    "unaudited",
+    0
+   ]
+  ]
+ },
+ "steps": [
+  {
+   "run": "20260722-213626-ad3276b",
+   "step": 100,
+   "segment": 1,
+   "state": "provisional",
+   "committed_state_hash": "9bef25cdbb77488eb9921ba3312f49df55fd867b6d32e2c671ec21c7f4eac344",
+   "contributor": "Johnny",
+   "eth": null,
+   "hardware": "H100 80GB HBM3 \u00b7 1x",
+   "runtime_hours": 2.773,
+   "artifact": "gs://gensyn-open-1b/open-1b/handoffs/step_000000101/handoff.safetensors",
+   "artifact_digest": "c851a69639eb3b52aa150cf9fd2bb84a4145501c0d6e846e0b71e2aa12639f79",
+   "artifact_check": "loss-checked",
+   "accepted_at": "2026-09-11T18:20:23.675Z",
+   "superseded": false,
+   "receipt": {
+    "step": 100,
+    "segment": 1,
+    "position": 1,
+    "phase": "Warmup",
+    "state": "provisional",
+    "committed": "9bef25cdbb77488eb9921ba3312f49df55fd867b6d32e2c671ec21c7f4eac344",
+    "reproduced": "9bef25cdbb77488eb9921ba3312f49df55fd867b6d32e2c671ec21c7f4eac344",
+    "audit": {
+     "id": "sub_0132a5035ac5b04d06cb706a",
+     "step": 100,
+     "segment": 1,
+     "contributor": "Johnny",
+     "eth": null,
+     "hardware": "H100 80GB HBM3 \u00b7 1x",
+     "runtimeHours": 2.773,
+     "reportedStateHash": "9bef25cdbb77488eb9921ba3312f49df55fd867b6d32e2c671ec21c7f4eac344",
+     "canonicalUri": "gs://gensyn-open-1b/open-1b/handoffs/step_000000101/handoff.safetensors",
+     "artifactDigest": "c851a69639eb3b52aa150cf9fd2bb84a4145501c0d6e846e0b71e2aa12639f79",
+     "acceptedAt": 1789150823675,
+     "superseded": false
+    },
+    "corroborations": 0,
+    "predecessor": {
+     "step": 100,
+     "kind": "published checkpoint",
+     "uri": "gs://gensyn-open-1b/ckpt/step_000000100/",
+     "digest": null,
+     "check": "published"
+    },
+    "claim": null,
+    "proof": {
+     "leaf": "9bef25cdbb77488eb9921ba3312f49df55fd867b6d32e2c671ec21c7f4eac344",
+     "path": [
+      {
+       "hash": "72d1c4b6d67939afa9750b293418750e0a4ef5ad91df66a01e11fdd55b50c8aa",
+       "side": "right",
+       "level": 0
+      },
+      {
+       "hash": "0b3f18c24ffd7942952948f10f8b4e96f6b9087174aa243f88cc069cdb7c8c18",
+       "side": "right",
+       "level": 1
+      },
+      {
+       "hash": "1c0e89c6426dd366451aaecae6232ffe9d3b2c7d6cf85da6604e72ceee96f521",
+       "side": "right",
+       "level": 2
+      },
+      {
+       "hash": "6cda30d07384055b9c47926745b62ed1bf51429bd0928a4e284fa2ef1bc90a7d",
+       "side": "right",
+       "level": 3
+      },
+      {
+       "hash": "1f797f6a76a1837b73e3f993dca516ecd47de3de4ade0b105230a36ea016ade3",
+       "side": "right",
+       "level": 4
+      },
+      {
+       "hash": "d5a8846650581e5d4865c8a78912e77c198a27981018b3a2d907c9950edd1bd7",
+       "side": "right",
+       "level": 5
+      },
+      {
+       "hash": "4b9b9b1a0e2bdee08282b8b3c40be7d8bbf2a710c23ce2b698ca4c952d39bb4e",
+       "side": "right",
+       "level": 6
+      }
+     ],
+     "root": "b3f616be2bfe40c71859377652b88bac1874a18a536ce7fa8fb9a1cf246c513a"
+    },
+    "anchor": {
+     "step": 200,
+     "txHash": "0x7f9e70d9c6aa9dac9b6820d2c7afb8d4201d72ad57748286b4c3be8c793a56f3",
+     "block": 23706782,
+     "timestamp": "2026-09-10T08:49:28.000Z",
+     "weightsUri": "gs://gensyn-open-1b/ckpt/step_000000200/",
+     "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0x7f9e70d9c6aa9dac9b6820d2c7afb8d4201d72ad57748286b4c3be8c793a56f3"
+    },
+    "openingCheckpoint": 100,
+    "closingCheckpoint": 200,
+    "isFrontier": false,
+    "closesSegment": false,
+    "corroborationOnly": false,
+    "expectedRuntimeHours": 6,
+    "simulated": {
+     "commitments": false,
+     "anchors": false,
+     "lossGate": false
+    }
+   },
+   "predecessorMirror": null,
+   "artifactMirror": null
+  },
+  {
+   "run": "20260722-213626-ad3276b",
+   "step": 101,
+   "segment": 1,
+   "state": "provisional",
+   "committed_state_hash": "6fd7588d9dc8535662b9b80da7e00f2cac19c0445574f351fd522e30bac80692",
+   "contributor": "ben2",
+   "eth": null,
+   "hardware": "M5 \u00b7 24 GB",
+   "runtime_hours": 17.9515,
+   "artifact": "gs://gensyn-open-1b/open-1b/handoffs/step_000000102/handoff.safetensors",
+   "artifact_digest": "65dcecdbbacb65a227c929db85357f275cf2f8ac094abdf146f50d4b954b04ae",
+   "artifact_check": "loss-checked",
+   "accepted_at": "2026-09-12T19:03:56.893Z",
+   "superseded": false,
+   "receipt": {
+    "step": 101,
+    "segment": 1,
+    "position": 2,
+    "phase": "Warmup",
+    "state": "provisional",
+    "committed": "6fd7588d9dc8535662b9b80da7e00f2cac19c0445574f351fd522e30bac80692",
+    "reproduced": "6fd7588d9dc8535662b9b80da7e00f2cac19c0445574f351fd522e30bac80692",
+    "audit": {
+     "id": "sub_fddd37284f7f2d1983181f0c",
+     "step": 101,
+     "segment": 1,
+     "contributor": "ben2",
+     "eth": null,
+     "hardware": "M5 \u00b7 24 GB",
+     "runtimeHours": 17.9515,
+     "reportedStateHash": "6fd7588d9dc8535662b9b80da7e00f2cac19c0445574f351fd522e30bac80692",
+     "canonicalUri": "gs://gensyn-open-1b/open-1b/handoffs/step_000000102/handoff.safetensors",
+     "artifactDigest": "65dcecdbbacb65a227c929db85357f275cf2f8ac094abdf146f50d4b954b04ae",
+     "acceptedAt": 1789239836893,
+     "superseded": false
+    },
+    "corroborations": 0,
+    "predecessor": {
+     "step": 101,
+     "kind": "crowd-provided checkpoint",
+     "uri": "gs://gensyn-open-1b/open-1b/handoffs/step_000000101/handoff.safetensors",
+     "digest": "c851a69639eb3b52aa150cf9fd2bb84a4145501c0d6e846e0b71e2aa12639f79",
+     "check": "loss-checked"
+    },
+    "claim": null,
+    "proof": {
+     "leaf": "6fd7588d9dc8535662b9b80da7e00f2cac19c0445574f351fd522e30bac80692",
+     "path": [
+      {
+       "hash": "51ab33ce653c7b885e461921682e4a733abbc6e23a8b4ec9f2039a50b38588c0",
+       "side": "left",
+       "level": 0
+      },
+      {
+       "hash": "0b3f18c24ffd7942952948f10f8b4e96f6b9087174aa243f88cc069cdb7c8c18",
+       "side": "right",
+       "level": 1
+      },
+      {
+       "hash": "1c0e89c6426dd366451aaecae6232ffe9d3b2c7d6cf85da6604e72ceee96f521",
+       "side": "right",
+       "level": 2
+      },
+      {
+       "hash": "6cda30d07384055b9c47926745b62ed1bf51429bd0928a4e284fa2ef1bc90a7d",
+       "side": "right",
+       "level": 3
+      },
+      {
+       "hash": "1f797f6a76a1837b73e3f993dca516ecd47de3de4ade0b105230a36ea016ade3",
+       "side": "right",
+       "level": 4
+      },
+      {
+       "hash": "d5a8846650581e5d4865c8a78912e77c198a27981018b3a2d907c9950edd1bd7",
+       "side": "right",
+       "level": 5
+      },
+      {
+       "hash": "4b9b9b1a0e2bdee08282b8b3c40be7d8bbf2a710c23ce2b698ca4c952d39bb4e",
+       "side": "right",
+       "level": 6
+      }
+     ],
+     "root": "b3f616be2bfe40c71859377652b88bac1874a18a536ce7fa8fb9a1cf246c513a"
+    },
+    "anchor": {
+     "step": 200,
+     "txHash": "0x7f9e70d9c6aa9dac9b6820d2c7afb8d4201d72ad57748286b4c3be8c793a56f3",
+     "block": 23706782,
+     "timestamp": "2026-09-10T08:49:28.000Z",
+     "weightsUri": "gs://gensyn-open-1b/ckpt/step_000000200/",
+     "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0x7f9e70d9c6aa9dac9b6820d2c7afb8d4201d72ad57748286b4c3be8c793a56f3"
+    },
+    "openingCheckpoint": 100,
+    "closingCheckpoint": 200,
+    "isFrontier": false,
+    "closesSegment": false,
+    "corroborationOnly": false,
+    "expectedRuntimeHours": 6,
+    "simulated": {
+     "commitments": false,
+     "anchors": false,
+     "lossGate": false
+    }
+   },
+   "predecessorMirror": null,
+   "artifactMirror": null
+  },
+  {
+   "run": "20260722-213626-ad3276b",
+   "step": 102,
+   "segment": 1,
+   "state": "provisional",
+   "committed_state_hash": "e65f46aecf3ceaf1b497622f6f0b47f14d6c55c4c1128d3d07b43120b112bf2d",
+   "contributor": "ben",
+   "eth": "0xd1eeBFfCb48033C1bE77996148DeBdFE65f85483",
+   "hardware": "Apple M4 Pro \u00b7 48 GB",
+   "runtime_hours": 19.2069,
+   "artifact": "gs://gensyn-open-1b/open-1b/handoffs/step_000000103/handoff.safetensors",
+   "artifact_digest": "e53fd580c642d743dd4e395f224d7f9dc549c3c12b01423a2ca5562a6a596f7c",
+   "artifact_check": "loss-checked",
+   "accepted_at": "2026-09-14T15:02:26.527Z",
+   "superseded": false,
+   "receipt": {
+    "step": 102,
+    "segment": 1,
+    "position": 3,
+    "phase": "Warmup",
+    "state": "provisional",
+    "committed": "e65f46aecf3ceaf1b497622f6f0b47f14d6c55c4c1128d3d07b43120b112bf2d",
+    "reproduced": "e65f46aecf3ceaf1b497622f6f0b47f14d6c55c4c1128d3d07b43120b112bf2d",
+    "audit": {
+     "id": "sub_e9af377d04e95820e6ad3509",
+     "step": 102,
+     "segment": 1,
+     "contributor": "ben",
+     "eth": "0xd1eeBFfCb48033C1bE77996148DeBdFE65f85483",
+     "hardware": "Apple M4 Pro \u00b7 48 GB",
+     "runtimeHours": 19.2069,
+     "reportedStateHash": "e65f46aecf3ceaf1b497622f6f0b47f14d6c55c4c1128d3d07b43120b112bf2d",
+     "canonicalUri": "gs://gensyn-open-1b/open-1b/handoffs/step_000000103/handoff.safetensors",
+     "artifactDigest": "e53fd580c642d743dd4e395f224d7f9dc549c3c12b01423a2ca5562a6a596f7c",
+     "acceptedAt": 1789398146527,
+     "superseded": false
+    },
+    "corroborations": 0,
+    "predecessor": {
+     "step": 102,
+     "kind": "crowd-provided checkpoint",
+     "uri": "gs://gensyn-open-1b/open-1b/handoffs/step_000000102/handoff.safetensors",
+     "digest": "65dcecdbbacb65a227c929db85357f275cf2f8ac094abdf146f50d4b954b04ae",
+     "check": "loss-checked"
+    },
+    "claim": null,
+    "proof": {
+     "leaf": "e65f46aecf3ceaf1b497622f6f0b47f14d6c55c4c1128d3d07b43120b112bf2d",
+     "path": [
+      {
+       "hash": "81c03a2e0dcacbbdf40c9de6e4574298ce0f63bd36e5d4c9a91126c6636d30bf",
+       "side": "right",
+       "level": 0
+      },
+      {
+       "hash": "3246183c0a431efc92d12cc1907ae2130e8e370c3268628e65fcbf510c8cc79d",
+       "side": "left",
+       "level": 1
+      },
+      {
+       "hash": "1c0e89c6426dd366451aaecae6232ffe9d3b2c7d6cf85da6604e72ceee96f521",
+       "side": "right",
+       "level": 2
+      },
+      {
+       "hash": "6cda30d07384055b9c47926745b62ed1bf51429bd0928a4e284fa2ef1bc90a7d",
+       "side": "right",
+       "level": 3
+      },
+      {
+       "hash": "1f797f6a76a1837b73e3f993dca516ecd47de3de4ade0b105230a36ea016ade3",
+       "side": "right",
+       "level": 4
+      },
+      {
+       "hash": "d5a8846650581e5d4865c8a78912e77c198a27981018b3a2d907c9950edd1bd7",
+       "side": "right",
+       "level": 5
+      },
+      {
+       "hash": "4b9b9b1a0e2bdee08282b8b3c40be7d8bbf2a710c23ce2b698ca4c952d39bb4e",
+       "side": "right",
+       "level": 6
+      }
+     ],
+     "root": "b3f616be2bfe40c71859377652b88bac1874a18a536ce7fa8fb9a1cf246c513a"
+    },
+    "anchor": {
+     "step": 200,
+     "txHash": "0x7f9e70d9c6aa9dac9b6820d2c7afb8d4201d72ad57748286b4c3be8c793a56f3",
+     "block": 23706782,
+     "timestamp": "2026-09-10T08:49:28.000Z",
+     "weightsUri": "gs://gensyn-open-1b/ckpt/step_000000200/",
+     "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0x7f9e70d9c6aa9dac9b6820d2c7afb8d4201d72ad57748286b4c3be8c793a56f3"
+    },
+    "openingCheckpoint": 100,
+    "closingCheckpoint": 200,
+    "isFrontier": false,
+    "closesSegment": false,
+    "corroborationOnly": false,
+    "expectedRuntimeHours": 6,
+    "simulated": {
+     "commitments": false,
+     "anchors": false,
+     "lossGate": false
+    }
+   },
+   "predecessorMirror": null,
+   "artifactMirror": null
+  },
+  {
+   "run": "20260722-213626-ad3276b",
+   "step": 200,
+   "segment": 2,
+   "state": "provisional",
+   "committed_state_hash": "0d4b42095acc08a427c381c186987960025e5be4c8bae1ffc76a1ae50f8aff81",
+   "contributor": "Johnny",
+   "eth": null,
+   "hardware": "M5",
+   "runtime_hours": 8.6197,
+   "artifact": "gs://gensyn-open-1b/open-1b/handoffs/step_000000201/handoff.safetensors",
+   "artifact_digest": "3ba7e9cfbde6eb35f960cf4c84e5285c99446af0cbce474983244b013e77bb91",
+   "artifact_check": "loss-checked",
+   "accepted_at": "2026-09-12T09:42:20.267Z",
+   "superseded": false,
+   "receipt": {
+    "step": 200,
+    "segment": 2,
+    "position": 1,
+    "phase": "Warmup",
+    "state": "provisional",
+    "committed": "0d4b42095acc08a427c381c186987960025e5be4c8bae1ffc76a1ae50f8aff81",
+    "reproduced": "0d4b42095acc08a427c381c186987960025e5be4c8bae1ffc76a1ae50f8aff81",
+    "audit": {
+     "id": "sub_88c10b24081656896d8ac6aa",
+     "step": 200,
+     "segment": 2,
+     "contributor": "Johnny",
+     "eth": null,
+     "hardware": "M5",
+     "runtimeHours": 8.6197,
+     "reportedStateHash": "0d4b42095acc08a427c381c186987960025e5be4c8bae1ffc76a1ae50f8aff81",
+     "canonicalUri": "gs://gensyn-open-1b/open-1b/handoffs/step_000000201/handoff.safetensors",
+     "artifactDigest": "3ba7e9cfbde6eb35f960cf4c84e5285c99446af0cbce474983244b013e77bb91",
+     "acceptedAt": 1789206140267,
+     "superseded": false
+    },
+    "corroborations": 0,
+    "predecessor": {
+     "step": 200,
+     "kind": "published checkpoint",
+     "uri": "gs://gensyn-open-1b/ckpt/step_000000200/",
+     "digest": null,
+     "check": "published"
+    },
+    "claim": null,
+    "proof": {
+     "leaf": "0d4b42095acc08a427c381c186987960025e5be4c8bae1ffc76a1ae50f8aff81",
+     "path": [
+      {
+       "hash": "e74ce20d21aad39b83bd0850615c06799d12f22b95fbbda7b392f2bf9f3725e9",
+       "side": "right",
+       "level": 0
+      },
+      {
+       "hash": "ff033dd471567bf6f5203e14be4bee6a6caa3fd51ddf4ad1ff594dddb2742ff1",
+       "side": "right",
+       "level": 1
+      },
+      {
+       "hash": "bca9c76735e4fcd0462d7630b3f4ff604f77c8eb3cca0fbe7291955c4736f55b",
+       "side": "right",
+       "level": 2
+      },
+      {
+       "hash": "64a1b409fcd20b1f233fe0ff342f4ce009a21715656638b1738185d2ee9df3a3",
+       "side": "right",
+       "level": 3
+      },
+      {
+       "hash": "a6e3a1dafe0166a9cb0f8eb6bbf9fcb65d0c6f5f9a8b499ed9337a55ac215d5f",
+       "side": "right",
+       "level": 4
+      },
+      {
+       "hash": "b587b59f9e4177c1da90b444d93df5f52ce8f6b26b24dc6673893dd086762b1b",
+       "side": "right",
+       "level": 5
+      },
+      {
+       "hash": "5ab629154b995bfe07948e5b9bf144390cc634ea6f4eff4119b2fa616781367c",
+       "side": "right",
+       "level": 6
+      }
+     ],
+     "root": "e1d91bc65604b2cc14ac1e59204b652894e51cb97b18832f28f70c60b661920c"
+    },
+    "anchor": {
+     "step": 300,
+     "txHash": "0xe00808d7da5276207c6523683e8f357274e79484db9feeaa1fb1b4acd941dfc0",
+     "block": 23706784,
+     "timestamp": "2026-09-10T08:49:32.000Z",
+     "weightsUri": "gs://gensyn-open-1b/ckpt/step_000000300/",
+     "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0xe00808d7da5276207c6523683e8f357274e79484db9feeaa1fb1b4acd941dfc0"
+    },
+    "openingCheckpoint": 200,
+    "closingCheckpoint": 300,
+    "isFrontier": false,
+    "closesSegment": false,
+    "corroborationOnly": false,
+    "expectedRuntimeHours": 6,
+    "simulated": {
+     "commitments": false,
+     "anchors": false,
+     "lossGate": false
+    }
+   },
+   "predecessorMirror": null,
+   "artifactMirror": null
+  },
+  {
+   "run": "20260722-213626-ad3276b",
+   "step": 7000,
+   "segment": 70,
+   "state": "provisional",
+   "committed_state_hash": "054356121094f4eceba42724bc68a37cb25f35aef8c5c094a02c1ffacd4cf832",
+   "contributor": "Johnny",
+   "eth": null,
+   "hardware": "H100 \u00b7 64 GB",
+   "runtime_hours": 0.4881,
+   "artifact": "gs://gensyn-open-1b/open-1b/handoffs/step_000007001/handoff.safetensors",
+   "artifact_digest": "c4b14aa080e20b9f150f26c7fae0aa7ac46a3c8735c47e125ce40eccf2f8486c",
+   "artifact_check": "loss-checked",
+   "accepted_at": "2026-09-14T23:45:31.623Z",
+   "superseded": false,
+   "receipt": {
+    "step": 7000,
+    "segment": 70,
+    "position": 1,
+    "phase": "Main",
+    "state": "provisional",
+    "committed": "054356121094f4eceba42724bc68a37cb25f35aef8c5c094a02c1ffacd4cf832",
+    "reproduced": "054356121094f4eceba42724bc68a37cb25f35aef8c5c094a02c1ffacd4cf832",
+    "audit": {
+     "id": "sub_1a5a1a801219c23874eb95d8",
+     "step": 7000,
+     "segment": 70,
+     "contributor": "Johnny",
+     "eth": null,
+     "hardware": "H100 \u00b7 64 GB",
+     "runtimeHours": 0.4881,
+     "reportedStateHash": "054356121094f4eceba42724bc68a37cb25f35aef8c5c094a02c1ffacd4cf832",
+     "canonicalUri": "gs://gensyn-open-1b/open-1b/handoffs/step_000007001/handoff.safetensors",
+     "artifactDigest": "c4b14aa080e20b9f150f26c7fae0aa7ac46a3c8735c47e125ce40eccf2f8486c",
+     "acceptedAt": 1789429531623,
+     "superseded": false
+    },
+    "corroborations": 0,
+    "predecessor": {
+     "step": 7000,
+     "kind": "published checkpoint",
+     "uri": "gs://gensyn-open-1b/ckpt/step_000007000/",
+     "digest": null,
+     "check": "published"
+    },
+    "claim": null,
+    "proof": {
+     "leaf": "054356121094f4eceba42724bc68a37cb25f35aef8c5c094a02c1ffacd4cf832",
+     "path": [
+      {
+       "hash": "97bf8ab4049a5814f50ff33bed225a9f4a8fee88f51968e02758981c97a9cf53",
+       "side": "right",
+       "level": 0
+      },
+      {
+       "hash": "6c113c744b20040b7cfba7475351350b8164cd85b088f18c1a2a0a263a0a461c",
+       "side": "right",
+       "level": 1
+      },
+      {
+       "hash": "042d59d6d94963b877aae14d3775176222a6caee23d355374ed97ee2cbd12b56",
+       "side": "right",
+       "level": 2
+      },
+      {
+       "hash": "6604d310a7180410fcf23925d275b994e3f9f0d781daf6cd75caa8489f18db10",
+       "side": "right",
+       "level": 3
+      },
+      {
+       "hash": "d0201239611e9f6cd7be4f08f5e3a45b8e4ec07d3fdff3a4e1f8226004ad45ae",
+       "side": "right",
+       "level": 4
+      },
+      {
+       "hash": "4d2f35295627030b9ac16261dda5a69937c96c37d40aeba2babb2d18645b2183",
+       "side": "right",
+       "level": 5
+      },
+      {
+       "hash": "9ce82385dbf5ab672d5d1dd5929a3ccbe6502877c1dffd7372b275864b3ddd7c",
+       "side": "right",
+       "level": 6
+      }
+     ],
+     "root": "c0a188228ed5bebc4e68f15923cf745c0105442a1462f56bba166495eb64d2a7"
+    },
+    "anchor": {
+     "step": 7100,
+     "txHash": "0x64d84bb68dbd13555672fa864ef8641047e80e3a2129df38b4ba79f0e7d2cfa1",
+     "block": 23706939,
+     "timestamp": "2026-09-10T08:54:42.000Z",
+     "weightsUri": "gs://gensyn-open-1b/ckpt/step_000007100/",
+     "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0x64d84bb68dbd13555672fa864ef8641047e80e3a2129df38b4ba79f0e7d2cfa1"
+    },
+    "openingCheckpoint": 7000,
+    "closingCheckpoint": 7100,
+    "isFrontier": false,
+    "closesSegment": false,
+    "corroborationOnly": false,
+    "expectedRuntimeHours": 12,
+    "simulated": {
+     "commitments": false,
+     "anchors": false,
+     "lossGate": false
+    }
+   },
+   "predecessorMirror": null,
+   "artifactMirror": null
+  },
+  {
+   "run": "20260722-213626-ad3276b",
+   "step": 12100,
+   "segment": 121,
+   "state": "provisional",
+   "committed_state_hash": "d0be3e58ffa9d5338b97f4b6d24df640e802f6cc1f48e98652613d3d8be9e863",
+   "contributor": "adam",
+   "eth": null,
+   "hardware": "NVIDIA H100 80GB HBM3 \u00b7 96 GB",
+   "runtime_hours": 0.6451,
+   "artifact": "gs://gensyn-open-1b/open-1b/handoffs/step_000012101/handoff.safetensors",
+   "artifact_digest": "f0714f130fff8bc704672cdcc666dd0f133ea1db6ef7768ff343419d6a3c14bf",
+   "artifact_check": "loss-checked",
+   "accepted_at": "2026-09-11T18:34:36.039Z",
+   "superseded": false,
+   "receipt": {
+    "step": 12100,
+    "segment": 121,
+    "position": 1,
+    "phase": "Main",
+    "state": "provisional",
+    "committed": "d0be3e58ffa9d5338b97f4b6d24df640e802f6cc1f48e98652613d3d8be9e863",
+    "reproduced": "d0be3e58ffa9d5338b97f4b6d24df640e802f6cc1f48e98652613d3d8be9e863",
+    "audit": {
+     "id": "sub_e0d4240a890f772ccd0ea4a7",
+     "step": 12100,
+     "segment": 121,
+     "contributor": "adam",
+     "eth": null,
+     "hardware": "NVIDIA H100 80GB HBM3 \u00b7 96 GB",
+     "runtimeHours": 0.6451,
+     "reportedStateHash": "d0be3e58ffa9d5338b97f4b6d24df640e802f6cc1f48e98652613d3d8be9e863",
+     "canonicalUri": "gs://gensyn-open-1b/open-1b/handoffs/step_000012101/handoff.safetensors",
+     "artifactDigest": "f0714f130fff8bc704672cdcc666dd0f133ea1db6ef7768ff343419d6a3c14bf",
+     "acceptedAt": 1789151676039,
+     "superseded": false
+    },
+    "corroborations": 0,
+    "predecessor": {
+     "step": 12100,
+     "kind": "published checkpoint",
+     "uri": "gs://gensyn-open-1b/ckpt/step_000012100/",
+     "digest": null,
+     "check": "published"
+    },
+    "claim": null,
+    "proof": {
+     "leaf": "d0be3e58ffa9d5338b97f4b6d24df640e802f6cc1f48e98652613d3d8be9e863",
+     "path": [
+      {
+       "hash": "57d6d1e2afa553c3392b90aeaf12bc1576a97aa7c57cae8cb6592c09a74a9d3a",
+       "side": "right",
+       "level": 0
+      },
+      {
+       "hash": "ed8506270f3fcfe2f2a1dbee523350451cb1b013fc5b6755d4ef7e7d99afd34f",
+       "side": "right",
+       "level": 1
+      },
+      {
+       "hash": "ae6e67976a3349ff932707706509e6344254052c12c07e43a467ff8b94492607",
+       "side": "right",
+       "level": 2
+      },
+      {
+       "hash": "b01bfe80221eb152250a35799400a25b2c215393c3958c8882078c4d0526257d",
+       "side": "right",
+       "level": 3
+      },
+      {
+       "hash": "391280ba8273a5f96f28d2cb6e8981c5b91f1b2c0bc5c580b3b1fd39f394eaad",
+       "side": "right",
+       "level": 4
+      },
+      {
+       "hash": "2b9bdade39d2daabaac161b98f2e715550b39511dafaa66f2c06c78d93eb0a4a",
+       "side": "right",
+       "level": 5
+      },
+      {
+       "hash": "f71ad0ebc820d3ab33889d82dcdfc8cede81e961e326110e6f3ae8cf4e8f577b",
+       "side": "right",
+       "level": 6
+      }
+     ],
+     "root": "2e4ceff6a1aa12484d4a0f4cc979952e449c51afce06bda6e52bb4e937f809e7"
+    },
+    "anchor": {
+     "step": 12200,
+     "txHash": "0x6ac04f2a953879b0d6702641c4fde880ee0a1e61758df2a57df0aa690f21d58a",
+     "block": 23706950,
+     "timestamp": "2026-09-10T08:55:04.000Z",
+     "weightsUri": "gs://gensyn-open-1b/ckpt/step_000012200/",
+     "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0x6ac04f2a953879b0d6702641c4fde880ee0a1e61758df2a57df0aa690f21d58a"
+    },
+    "openingCheckpoint": 12100,
+    "closingCheckpoint": 12200,
+    "isFrontier": false,
+    "closesSegment": false,
+    "corroborationOnly": false,
+    "expectedRuntimeHours": 12,
+    "simulated": {
+     "commitments": false,
+     "anchors": false,
+     "lossGate": false
+    }
+   },
+   "predecessorMirror": null,
+   "artifactMirror": null
+  },
+  {
+   "run": "20260722-213626-ad3276b",
+   "step": 12101,
+   "segment": 121,
+   "state": "provisional",
+   "committed_state_hash": "16dbad3a5073d79f5dccbedc1f164699bd6cf0b948fa112ef815dca96547d366",
+   "contributor": "adam",
+   "eth": null,
+   "hardware": "NVIDIA H100 80GB HBM3 \u00b7 96 GB",
+   "runtime_hours": 0.7157,
+   "artifact": "gs://gensyn-open-1b/open-1b/handoffs/step_000012102/handoff.safetensors",
+   "artifact_digest": "b6ef46be991cebd5e85663970f3472243d26d017e266652724c35fc0b07e2399",
+   "artifact_check": "loss-checked",
+   "accepted_at": "2026-09-11T19:54:48.441Z",
+   "superseded": false,
+   "receipt": {
+    "step": 12101,
+    "segment": 121,
+    "position": 2,
+    "phase": "Main",
+    "state": "provisional",
+    "committed": "16dbad3a5073d79f5dccbedc1f164699bd6cf0b948fa112ef815dca96547d366",
+    "reproduced": "16dbad3a5073d79f5dccbedc1f164699bd6cf0b948fa112ef815dca96547d366",
+    "audit": {
+     "id": "sub_9713a6a8cddf4a2d69c8a8fe",
+     "step": 12101,
+     "segment": 121,
+     "contributor": "adam",
+     "eth": null,
+     "hardware": "NVIDIA H100 80GB HBM3 \u00b7 96 GB",
+     "runtimeHours": 0.7157,
+     "reportedStateHash": "16dbad3a5073d79f5dccbedc1f164699bd6cf0b948fa112ef815dca96547d366",
+     "canonicalUri": "gs://gensyn-open-1b/open-1b/handoffs/step_000012102/handoff.safetensors",
+     "artifactDigest": "b6ef46be991cebd5e85663970f3472243d26d017e266652724c35fc0b07e2399",
+     "acceptedAt": 1789156488441,
+     "superseded": false
+    },
+    "corroborations": 0,
+    "predecessor": {
+     "step": 12101,
+     "kind": "crowd-provided checkpoint",
+     "uri": "gs://gensyn-open-1b/open-1b/handoffs/step_000012101/handoff.safetensors",
+     "digest": "f0714f130fff8bc704672cdcc666dd0f133ea1db6ef7768ff343419d6a3c14bf",
+     "check": "loss-checked"
+    },
+    "claim": null,
+    "proof": {
+     "leaf": "16dbad3a5073d79f5dccbedc1f164699bd6cf0b948fa112ef815dca96547d366",
+     "path": [
+      {
+       "hash": "051f01760691373a5273c44991852a008a682445924c6b567be4d550cb6aa261",
+       "side": "left",
+       "level": 0
+      },
+      {
+       "hash": "ed8506270f3fcfe2f2a1dbee523350451cb1b013fc5b6755d4ef7e7d99afd34f",
+       "side": "right",
+       "level": 1
+      },
+      {
+       "hash": "ae6e67976a3349ff932707706509e6344254052c12c07e43a467ff8b94492607",
+       "side": "right",
+       "level": 2
+      },
+      {
+       "hash": "b01bfe80221eb152250a35799400a25b2c215393c3958c8882078c4d0526257d",
+       "side": "right",
+       "level": 3
+      },
+      {
+       "hash": "391280ba8273a5f96f28d2cb6e8981c5b91f1b2c0bc5c580b3b1fd39f394eaad",
+       "side": "right",
+       "level": 4
+      },
+      {
+       "hash": "2b9bdade39d2daabaac161b98f2e715550b39511dafaa66f2c06c78d93eb0a4a",
+       "side": "right",
+       "level": 5
+      },
+      {
+       "hash": "f71ad0ebc820d3ab33889d82dcdfc8cede81e961e326110e6f3ae8cf4e8f577b",
+       "side": "right",
+       "level": 6
+      }
+     ],
+     "root": "2e4ceff6a1aa12484d4a0f4cc979952e449c51afce06bda6e52bb4e937f809e7"
+    },
+    "anchor": {
+     "step": 12200,
+     "txHash": "0x6ac04f2a953879b0d6702641c4fde880ee0a1e61758df2a57df0aa690f21d58a",
+     "block": 23706950,
+     "timestamp": "2026-09-10T08:55:04.000Z",
+     "weightsUri": "gs://gensyn-open-1b/ckpt/step_000012200/",
+     "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0x6ac04f2a953879b0d6702641c4fde880ee0a1e61758df2a57df0aa690f21d58a"
+    },
+    "openingCheckpoint": 12100,
+    "closingCheckpoint": 12200,
+    "isFrontier": false,
+    "closesSegment": false,
+    "corroborationOnly": false,
+    "expectedRuntimeHours": 12,
+    "simulated": {
+     "commitments": false,
+     "anchors": false,
+     "lossGate": false
+    }
+   },
+   "predecessorMirror": null,
+   "artifactMirror": null
+  },
+  {
+   "run": "20260722-213626-ad3276b",
+   "step": 12102,
+   "segment": 121,
+   "state": "provisional",
+   "committed_state_hash": "75f02647b23228b4723a070c7daa455fada79ece8937f0dcc10c593f9b929b7a",
+   "contributor": "adam",
+   "eth": null,
+   "hardware": "NVIDIA H100 80GB \u00b7 96 GB",
+   "runtime_hours": 0.4936,
+   "artifact": "gs://gensyn-open-1b/open-1b/handoffs/step_000012103/handoff.safetensors",
+   "artifact_digest": "ce5d296ee73a2800afd5061e67d3aeb678ef5a11d59277730142f4a65e8b1a8c",
+   "artifact_check": "loss-checked",
+   "accepted_at": "2026-09-14T18:41:51.197Z",
+   "superseded": false,
+   "receipt": {
+    "step": 12102,
+    "segment": 121,
+    "position": 3,
+    "phase": "Main",
+    "state": "provisional",
+    "committed": "75f02647b23228b4723a070c7daa455fada79ece8937f0dcc10c593f9b929b7a",
+    "reproduced": "75f02647b23228b4723a070c7daa455fada79ece8937f0dcc10c593f9b929b7a",
+    "audit": {
+     "id": "sub_8e91de94aafc007c41a2a4ef",
+     "step": 12102,
+     "segment": 121,
+     "contributor": "adam",
+     "eth": null,
+     "hardware": "NVIDIA H100 80GB \u00b7 96 GB",
+     "runtimeHours": 0.4936,
+     "reportedStateHash": "75f02647b23228b4723a070c7daa455fada79ece8937f0dcc10c593f9b929b7a",
+     "canonicalUri": "gs://gensyn-open-1b/open-1b/handoffs/step_000012103/handoff.safetensors",
+     "artifactDigest": "ce5d296ee73a2800afd5061e67d3aeb678ef5a11d59277730142f4a65e8b1a8c",
+     "acceptedAt": 1789411311197,
+     "superseded": false
+    },
+    "corroborations": 0,
+    "predecessor": {
+     "step": 12102,
+     "kind": "crowd-provided checkpoint",
+     "uri": "gs://gensyn-open-1b/open-1b/handoffs/step_000012102/handoff.safetensors",
+     "digest": "b6ef46be991cebd5e85663970f3472243d26d017e266652724c35fc0b07e2399",
+     "check": "loss-checked"
+    },
+    "claim": null,
+    "proof": {
+     "leaf": "75f02647b23228b4723a070c7daa455fada79ece8937f0dcc10c593f9b929b7a",
+     "path": [
+      {
+       "hash": "ff8a2d1d65b7ab2916f0d77ae87d0be8ec779e82b158f1d6c99538ce4162e91e",
+       "side": "right",
+       "level": 0
+      },
+      {
+       "hash": "43f9522ad7c8db096a79d2b4b990b41fb0435a93d38bc6f267298ff7dcf64bcf",
+       "side": "left",
+       "level": 1
+      },
+      {
+       "hash": "ae6e67976a3349ff932707706509e6344254052c12c07e43a467ff8b94492607",
+       "side": "right",
+       "level": 2
+      },
+      {
+       "hash": "b01bfe80221eb152250a35799400a25b2c215393c3958c8882078c4d0526257d",
+       "side": "right",
+       "level": 3
+      },
+      {
+       "hash": "391280ba8273a5f96f28d2cb6e8981c5b91f1b2c0bc5c580b3b1fd39f394eaad",
+       "side": "right",
+       "level": 4
+      },
+      {
+       "hash": "2b9bdade39d2daabaac161b98f2e715550b39511dafaa66f2c06c78d93eb0a4a",
+       "side": "right",
+       "level": 5
+      },
+      {
+       "hash": "f71ad0ebc820d3ab33889d82dcdfc8cede81e961e326110e6f3ae8cf4e8f577b",
+       "side": "right",
+       "level": 6
+      }
+     ],
+     "root": "2e4ceff6a1aa12484d4a0f4cc979952e449c51afce06bda6e52bb4e937f809e7"
+    },
+    "anchor": {
+     "step": 12200,
+     "txHash": "0x6ac04f2a953879b0d6702641c4fde880ee0a1e61758df2a57df0aa690f21d58a",
+     "block": 23706950,
+     "timestamp": "2026-09-10T08:55:04.000Z",
+     "weightsUri": "gs://gensyn-open-1b/ckpt/step_000012200/",
+     "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0x6ac04f2a953879b0d6702641c4fde880ee0a1e61758df2a57df0aa690f21d58a"
+    },
+    "openingCheckpoint": 12100,
+    "closingCheckpoint": 12200,
+    "isFrontier": false,
+    "closesSegment": false,
+    "corroborationOnly": false,
+    "expectedRuntimeHours": 12,
+    "simulated": {
+     "commitments": false,
+     "anchors": false,
+     "lossGate": false
+    }
+   },
+   "predecessorMirror": null,
+   "artifactMirror": null
+  },
+  {
+   "run": "20260722-213626-ad3276b",
+   "step": 12103,
+   "segment": 121,
+   "state": "provisional",
+   "committed_state_hash": "398b1da0298a15b519be7850d06aed4fc48b7bdddcf203079023022b16128098",
+   "contributor": "adam",
+   "eth": null,
+   "hardware": "NVIDIA H100 80GB \u00b7 96 GB",
+   "runtime_hours": 0.5103,
+   "artifact": "gs://gensyn-open-1b/open-1b/handoffs/step_000012104/handoff.safetensors",
+   "artifact_digest": "0d8ef1ab89fdcfb6fb70eda37fbd8ac33dceef2daa2bbcfe2a118394de634dfe",
+   "artifact_check": "loss-checked",
+   "accepted_at": "2026-09-14T22:27:42.947Z",
+   "superseded": false,
+   "receipt": {
+    "step": 12103,
+    "segment": 121,
+    "position": 4,
+    "phase": "Main",
+    "state": "provisional",
+    "committed": "398b1da0298a15b519be7850d06aed4fc48b7bdddcf203079023022b16128098",
+    "reproduced": "398b1da0298a15b519be7850d06aed4fc48b7bdddcf203079023022b16128098",
+    "audit": {
+     "id": "sub_34c6665b513762ca2b22c4bd",
+     "step": 12103,
+     "segment": 121,
+     "contributor": "adam",
+     "eth": null,
+     "hardware": "NVIDIA H100 80GB \u00b7 96 GB",
+     "runtimeHours": 0.5103,
+     "reportedStateHash": "398b1da0298a15b519be7850d06aed4fc48b7bdddcf203079023022b16128098",
+     "canonicalUri": "gs://gensyn-open-1b/open-1b/handoffs/step_000012104/handoff.safetensors",
+     "artifactDigest": "0d8ef1ab89fdcfb6fb70eda37fbd8ac33dceef2daa2bbcfe2a118394de634dfe",
+     "acceptedAt": 1789424862947,
+     "superseded": false
+    },
+    "corroborations": 0,
+    "predecessor": {
+     "step": 12103,
+     "kind": "crowd-provided checkpoint",
+     "uri": "gs://gensyn-open-1b/open-1b/handoffs/step_000012103/handoff.safetensors",
+     "digest": "ce5d296ee73a2800afd5061e67d3aeb678ef5a11d59277730142f4a65e8b1a8c",
+     "check": "loss-checked"
+    },
+    "claim": null,
+    "proof": {
+     "leaf": "398b1da0298a15b519be7850d06aed4fc48b7bdddcf203079023022b16128098",
+     "path": [
+      {
+       "hash": "735e6585a85911be946436314f8bce23825b84150b5c75553d6abddf41c45b63",
+       "side": "left",
+       "level": 0
+      },
+      {
+       "hash": "43f9522ad7c8db096a79d2b4b990b41fb0435a93d38bc6f267298ff7dcf64bcf",
+       "side": "left",
+       "level": 1
+      },
+      {
+       "hash": "ae6e67976a3349ff932707706509e6344254052c12c07e43a467ff8b94492607",
+       "side": "right",
+       "level": 2
+      },
+      {
+       "hash": "b01bfe80221eb152250a35799400a25b2c215393c3958c8882078c4d0526257d",
+       "side": "right",
+       "level": 3
+      },
+      {
+       "hash": "391280ba8273a5f96f28d2cb6e8981c5b91f1b2c0bc5c580b3b1fd39f394eaad",
+       "side": "right",
+       "level": 4
+      },
+      {
+       "hash": "2b9bdade39d2daabaac161b98f2e715550b39511dafaa66f2c06c78d93eb0a4a",
+       "side": "right",
+       "level": 5
+      },
+      {
+       "hash": "f71ad0ebc820d3ab33889d82dcdfc8cede81e961e326110e6f3ae8cf4e8f577b",
+       "side": "right",
+       "level": 6
+      }
+     ],
+     "root": "2e4ceff6a1aa12484d4a0f4cc979952e449c51afce06bda6e52bb4e937f809e7"
+    },
+    "anchor": {
+     "step": 12200,
+     "txHash": "0x6ac04f2a953879b0d6702641c4fde880ee0a1e61758df2a57df0aa690f21d58a",
+     "block": 23706950,
+     "timestamp": "2026-09-10T08:55:04.000Z",
+     "weightsUri": "gs://gensyn-open-1b/ckpt/step_000012200/",
+     "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0x6ac04f2a953879b0d6702641c4fde880ee0a1e61758df2a57df0aa690f21d58a"
+    },
+    "openingCheckpoint": 12100,
+    "closingCheckpoint": 12200,
+    "isFrontier": false,
+    "closesSegment": false,
+    "corroborationOnly": false,
+    "expectedRuntimeHours": 12,
+    "simulated": {
+     "commitments": false,
+     "anchors": false,
+     "lossGate": false
+    }
+   },
+   "predecessorMirror": null,
+   "artifactMirror": null
+  },
+  {
+   "run": "20260722-213626-ad3276b",
+   "step": 16900,
+   "segment": 169,
+   "state": "provisional",
+   "committed_state_hash": "ee941f794537723b6653361b545f9813c4d00dab8968c9b55ffe51a4345775d3",
+   "contributor": "Johnny",
+   "eth": null,
+   "hardware": "H100",
+   "runtime_hours": 0.6745,
+   "artifact": "gs://gensyn-open-1b/open-1b/handoffs/step_000016901/handoff.safetensors",
+   "artifact_digest": "7dbf5647994069706fb0152bead91d4b9d1f2b767ba592a43cb9a4db75c141d8",
+   "artifact_check": "loss-checked",
+   "accepted_at": "2026-09-11T21:45:11.001Z",
+   "superseded": false,
+   "receipt": {
+    "step": 16900,
+    "segment": 169,
+    "position": 1,
+    "phase": "Main",
+    "state": "provisional",
+    "committed": "ee941f794537723b6653361b545f9813c4d00dab8968c9b55ffe51a4345775d3",
+    "reproduced": "ee941f794537723b6653361b545f9813c4d00dab8968c9b55ffe51a4345775d3",
+    "audit": {
+     "id": "sub_55d8c32aaa1a034eb3772cba",
+     "step": 16900,
+     "segment": 169,
+     "contributor": "Johnny",
+     "eth": null,
+     "hardware": "H100",
+     "runtimeHours": 0.6745,
+     "reportedStateHash": "ee941f794537723b6653361b545f9813c4d00dab8968c9b55ffe51a4345775d3",
+     "canonicalUri": "gs://gensyn-open-1b/open-1b/handoffs/step_000016901/handoff.safetensors",
+     "artifactDigest": "7dbf5647994069706fb0152bead91d4b9d1f2b767ba592a43cb9a4db75c141d8",
+     "acceptedAt": 1789163111001,
+     "superseded": false
+    },
+    "corroborations": 0,
+    "predecessor": {
+     "step": 16900,
+     "kind": "published checkpoint",
+     "uri": "gs://gensyn-open-1b/ckpt/step_000016900/",
+     "digest": null,
+     "check": "published"
+    },
+    "claim": null,
+    "proof": {
+     "leaf": "ee941f794537723b6653361b545f9813c4d00dab8968c9b55ffe51a4345775d3",
+     "path": [
+      {
+       "hash": "9b3b8555c88e951088822d37847fc503f4a6b5ac2a324b015daffaa0fbf0add0",
+       "side": "right",
+       "level": 0
+      },
+      {
+       "hash": "7bb282b8cf630dc07830f6b30fecf69f35fcf80de73c6919e7c88c001e5215ec",
+       "side": "right",
+       "level": 1
+      },
+      {
+       "hash": "2fa1ac3f503b27d8fa315f1313ddaa43de9b309601b5e3484bca18729078d5b1",
+       "side": "right",
+       "level": 2
+      },
+      {
+       "hash": "82c01b25a65cce7f3790cde24443f086f6785fe69a6baf4a8a8107b58af11f52",
+       "side": "right",
+       "level": 3
+      },
+      {
+       "hash": "d6f2c01a909e29c9ebb630a85a9450c9477fff48ac42701ee9c6cfeff84cb7d3",
+       "side": "right",
+       "level": 4
+      },
+      {
+       "hash": "3958c73b671485f707c6f6d7cd2aae8dc0f6682fa484e6cf30ff353b0ffc1b1c",
+       "side": "right",
+       "level": 5
+      },
+      {
+       "hash": "ef0b29f73be45dc9fbaf1f4f154df79a123b0f3467738cac4e2a446eb46032d3",
+       "side": "right",
+       "level": 6
+      }
+     ],
+     "root": "9808564a4a3e9bc9576af90c7d1b103780dc754df71422f570653cc669c2b849"
+    },
+    "anchor": {
+     "step": 17000,
+     "txHash": "0x8c0b509461ca7c62b9a884c16f9cf3296ec8dbff2be11c318938844b17a76e1b",
+     "block": 23706959,
+     "timestamp": "2026-09-10T08:55:22.000Z",
+     "weightsUri": "gs://gensyn-open-1b/ckpt/step_000017000/",
+     "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0x8c0b509461ca7c62b9a884c16f9cf3296ec8dbff2be11c318938844b17a76e1b"
+    },
+    "openingCheckpoint": 16900,
+    "closingCheckpoint": 17000,
+    "isFrontier": false,
+    "closesSegment": false,
+    "corroborationOnly": false,
+    "expectedRuntimeHours": 12,
+    "simulated": {
+     "commitments": false,
+     "anchors": false,
+     "lossGate": false
+    }
+   },
+   "predecessorMirror": null,
+   "artifactMirror": null
+  },
+  {
+   "run": "20260722-213626-ad3276b",
+   "step": 16901,
+   "segment": 169,
+   "state": "provisional",
+   "committed_state_hash": "885016d1b684746022e4e280bd58e6093efa0f075fda159d776f8ab879821f42",
+   "contributor": "Johnny",
+   "eth": null,
+   "hardware": "H100",
+   "runtime_hours": 1.1081,
+   "artifact": "gs://gensyn-open-1b/open-1b/handoffs/step_000016902/handoff.safetensors",
+   "artifact_digest": "d75de0be9f81ba263a22ba49fc08e1d58d0d172f91868d9f3b3612ef4eab83f3",
+   "artifact_check": "loss-checked",
+   "accepted_at": "2026-09-11T23:45:05.913Z",
+   "superseded": false,
+   "receipt": {
+    "step": 16901,
+    "segment": 169,
+    "position": 2,
+    "phase": "Main",
+    "state": "provisional",
+    "committed": "885016d1b684746022e4e280bd58e6093efa0f075fda159d776f8ab879821f42",
+    "reproduced": "885016d1b684746022e4e280bd58e6093efa0f075fda159d776f8ab879821f42",
+    "audit": {
+     "id": "sub_8068aea4ead0f43b4856a2bf",
+     "step": 16901,
+     "segment": 169,
+     "contributor": "Johnny",
+     "eth": null,
+     "hardware": "H100",
+     "runtimeHours": 1.1081,
+     "reportedStateHash": "885016d1b684746022e4e280bd58e6093efa0f075fda159d776f8ab879821f42",
+     "canonicalUri": "gs://gensyn-open-1b/open-1b/handoffs/step_000016902/handoff.safetensors",
+     "artifactDigest": "d75de0be9f81ba263a22ba49fc08e1d58d0d172f91868d9f3b3612ef4eab83f3",
+     "acceptedAt": 1789170305913,
+     "superseded": false
+    },
+    "corroborations": 0,
+    "predecessor": {
+     "step": 16901,
+     "kind": "crowd-provided checkpoint",
+     "uri": "gs://gensyn-open-1b/open-1b/handoffs/step_000016901/handoff.safetensors",
+     "digest": "7dbf5647994069706fb0152bead91d4b9d1f2b767ba592a43cb9a4db75c141d8",
+     "check": "loss-checked"
+    },
+    "claim": null,
+    "proof": {
+     "leaf": "885016d1b684746022e4e280bd58e6093efa0f075fda159d776f8ab879821f42",
+     "path": [
+      {
+       "hash": "8d80a0804836738bce50327619adf47a93d379b54d73fe72d4b9aca44e5c7632",
+       "side": "left",
+       "level": 0
+      },
+      {
+       "hash": "7bb282b8cf630dc07830f6b30fecf69f35fcf80de73c6919e7c88c001e5215ec",
+       "side": "right",
+       "level": 1
+      },
+      {
+       "hash": "2fa1ac3f503b27d8fa315f1313ddaa43de9b309601b5e3484bca18729078d5b1",
+       "side": "right",
+       "level": 2
+      },
+      {
+       "hash": "82c01b25a65cce7f3790cde24443f086f6785fe69a6baf4a8a8107b58af11f52",
+       "side": "right",
+       "level": 3
+      },
+      {
+       "hash": "d6f2c01a909e29c9ebb630a85a9450c9477fff48ac42701ee9c6cfeff84cb7d3",
+       "side": "right",
+       "level": 4
+      },
+      {
+       "hash": "3958c73b671485f707c6f6d7cd2aae8dc0f6682fa484e6cf30ff353b0ffc1b1c",
+       "side": "right",
+       "level": 5
+      },
+      {
+       "hash": "ef0b29f73be45dc9fbaf1f4f154df79a123b0f3467738cac4e2a446eb46032d3",
+       "side": "right",
+       "level": 6
+      }
+     ],
+     "root": "9808564a4a3e9bc9576af90c7d1b103780dc754df71422f570653cc669c2b849"
+    },
+    "anchor": {
+     "step": 17000,
+     "txHash": "0x8c0b509461ca7c62b9a884c16f9cf3296ec8dbff2be11c318938844b17a76e1b",
+     "block": 23706959,
+     "timestamp": "2026-09-10T08:55:22.000Z",
+     "weightsUri": "gs://gensyn-open-1b/ckpt/step_000017000/",
+     "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0x8c0b509461ca7c62b9a884c16f9cf3296ec8dbff2be11c318938844b17a76e1b"
+    },
+    "openingCheckpoint": 16900,
+    "closingCheckpoint": 17000,
+    "isFrontier": false,
+    "closesSegment": false,
+    "corroborationOnly": false,
+    "expectedRuntimeHours": 12,
+    "simulated": {
+     "commitments": false,
+     "anchors": false,
+     "lossGate": false
+    }
+   },
+   "predecessorMirror": null,
+   "artifactMirror": null
+  }
+ ],
+ "anchors": {
+  "200": {
+   "anchor": {
+    "step": 200,
+    "txHash": "0x7f9e70d9c6aa9dac9b6820d2c7afb8d4201d72ad57748286b4c3be8c793a56f3",
+    "block": 23706782,
+    "timestamp": "2026-09-10T08:49:28.000Z",
+    "weightsUri": "gs://gensyn-open-1b/ckpt/step_000000200/",
+    "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0x7f9e70d9c6aa9dac9b6820d2c7afb8d4201d72ad57748286b4c3be8c793a56f3"
+   },
+   "network": {
+    "name": "Gensyn Testnet",
+    "id": 685685
+   },
+   "from": "0xd484bfc58759faeead19d7debb59c00953573ef8",
+   "to": "0x000000000000000000000000000000000000dead",
+   "segmentCommitted": 1,
+   "value": "b3f616be2bfe40c71859377652b88bac1874a18a536ce7fa8fb9a1cf246c513a",
+   "calldata": "0x00000000000000c8b3f616be2bfe40c71859377652b88bac1874a18a536ce7fa8fb9a1cf246c513a",
+   "gasUsed": 22390,
+   "feeEth": "0.00000000000561989",
+   "simulated": false
+  },
+  "12100": {
+   "anchor": {
+    "step": 12100,
+    "txHash": "0x61eab4c57200f646335e4c918aeb0c17f26e3d1e7f22ad6958337d28b5426e81",
+    "block": 23706950,
+    "timestamp": "2026-09-10T08:55:04.000Z",
+    "weightsUri": "gs://gensyn-open-1b/ckpt/step_000012100/",
+    "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0x61eab4c57200f646335e4c918aeb0c17f26e3d1e7f22ad6958337d28b5426e81"
+   },
+   "network": {
+    "name": "Gensyn Testnet",
+    "id": 685685
+   },
+   "from": "0xd484bfc58759faeead19d7debb59c00953573ef8",
+   "to": "0x000000000000000000000000000000000000dead",
+   "segmentCommitted": 120,
+   "value": "8fd55da68c6af8e81987d3ef2352b188aadd5824ac5999be1a19ea248be10029",
+   "calldata": "0x0000000000002f448fd55da68c6af8e81987d3ef2352b188aadd5824ac5999be1a19ea248be10029",
+   "gasUsed": 22390,
+   "feeEth": "0.00000000000561989",
+   "simulated": false
+  },
+  "7000": {
+   "anchor": {
+    "step": 7000,
+    "txHash": "0xd9068ac8ab945dd0d0dcbe8972adbbfbb8c73761e34d5033672a6da7e0fe079d",
+    "block": 23706939,
+    "timestamp": "2026-09-10T08:54:42.000Z",
+    "weightsUri": "gs://gensyn-open-1b/ckpt/step_000007000/",
+    "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0xd9068ac8ab945dd0d0dcbe8972adbbfbb8c73761e34d5033672a6da7e0fe079d"
+   },
+   "network": {
+    "name": "Gensyn Testnet",
+    "id": 685685
+   },
+   "from": "0xd484bfc58759faeead19d7debb59c00953573ef8",
+   "to": "0x000000000000000000000000000000000000dead",
+   "segmentCommitted": 69,
+   "value": "13c2ecf12140001276cc33c9677134d429a4b3f33d4790b00aeebd634b96e377",
+   "calldata": "0x0000000000001b5813c2ecf12140001276cc33c9677134d429a4b3f33d4790b00aeebd634b96e377",
+   "gasUsed": 22390,
+   "feeEth": "0.00000000000561989",
+   "simulated": false
+  },
+  "100": {
+   "anchor": {
+    "step": 100,
+    "txHash": "0x8c9d0626fd90a102d1ee68763bf68b1b8a86e301e54c7341747a02a03dd2704c",
+    "block": 23706780,
+    "timestamp": "2026-09-10T08:49:24.000Z",
+    "weightsUri": "gs://gensyn-open-1b/ckpt/step_000000100/",
+    "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0x8c9d0626fd90a102d1ee68763bf68b1b8a86e301e54c7341747a02a03dd2704c"
+   },
+   "network": {
+    "name": "Gensyn Testnet",
+    "id": 685685
+   },
+   "from": "0xd484bfc58759faeead19d7debb59c00953573ef8",
+   "to": "0x000000000000000000000000000000000000dead",
+   "segmentCommitted": 0,
+   "value": "92afdd64b96335e51c43eaa87302eb671a310b10298660101fd8a52f651aac10",
+   "calldata": "0x000000000000006492afdd64b96335e51c43eaa87302eb671a310b10298660101fd8a52f651aac10",
+   "gasUsed": 22390,
+   "feeEth": "0.00000000000561989",
+   "simulated": false
+  },
+  "16900": {
+   "anchor": {
+    "step": 16900,
+    "txHash": "0xfa3f7e83a94708ddf4e0b58c176937634e160e5dbf17a9ed15dd2f636f511912",
+    "block": 23706959,
+    "timestamp": "2026-09-10T08:55:22.000Z",
+    "weightsUri": "gs://gensyn-open-1b/ckpt/step_000016900/",
+    "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0xfa3f7e83a94708ddf4e0b58c176937634e160e5dbf17a9ed15dd2f636f511912"
+   },
+   "network": {
+    "name": "Gensyn Testnet",
+    "id": 685685
+   },
+   "from": "0xd484bfc58759faeead19d7debb59c00953573ef8",
+   "to": "0x000000000000000000000000000000000000dead",
+   "segmentCommitted": 168,
+   "value": "f70816498e4c246b24c9085b367647461d17d4f2a4d98c58be8f9a5d618f0a3f",
+   "calldata": "0x0000000000004204f70816498e4c246b24c9085b367647461d17d4f2a4d98c58be8f9a5d618f0a3f",
+   "gasUsed": 22420,
+   "feeEth": "0.00000000000562742",
+   "simulated": false
+  }
+ },
+ "segments": {
+  "1": {
+   "segment": 1,
+   "state": "claimed",
+   "firstStep": 100,
+   "lastStep": 199,
+   "span": 100,
+   "phase": "Warmup",
+   "acceptedSteps": 3,
+   "fillFraction": 0.03,
+   "frontier": {
+    "step": 103,
+    "position": 4,
+    "state": "in-progress",
+    "claim": {
+     "id": "clm_4a714dd3d35f6f3acaeaa393",
+     "step": 103,
+     "position": 4,
+     "contributor": "aimax",
+     "hoursRunning": 8.7,
+     "expiresInHours": 39.3
+    }
+   },
+   "steps": [
+    {
+     "step": 100,
+     "position": 1,
+     "state": "provisional",
+     "claim": null
+    },
+    {
+     "step": 101,
+     "position": 2,
+     "state": "provisional",
+     "claim": null
+    },
+    {
+     "step": 102,
+     "position": 3,
+     "state": "provisional",
+     "claim": null
+    },
+    {
+     "step": 103,
+     "position": 4,
+     "state": "in-progress",
+     "claim": {
+      "id": "clm_4a714dd3d35f6f3acaeaa393",
+      "step": 103,
+      "position": 4,
+      "contributor": "aimax",
+      "hoursRunning": 8.7,
+      "expiresInHours": 39.3
+     }
+    },
+    {
+     "step": 104,
+     "position": 5,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 105,
+     "position": 6,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 106,
+     "position": 7,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 107,
+     "position": 8,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 108,
+     "position": 9,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 109,
+     "position": 10,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 110,
+     "position": 11,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 111,
+     "position": 12,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 112,
+     "position": 13,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 113,
+     "position": 14,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 114,
+     "position": 15,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 115,
+     "position": 16,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 116,
+     "position": 17,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 117,
+     "position": 18,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 118,
+     "position": 19,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 119,
+     "position": 20,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 120,
+     "position": 21,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 121,
+     "position": 22,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 122,
+     "position": 23,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 123,
+     "position": 24,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 124,
+     "position": 25,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 125,
+     "position": 26,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 126,
+     "position": 27,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 127,
+     "position": 28,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 128,
+     "position": 29,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 129,
+     "position": 30,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 130,
+     "position": 31,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 131,
+     "position": 32,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 132,
+     "position": 33,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 133,
+     "position": 34,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 134,
+     "position": 35,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 135,
+     "position": 36,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 136,
+     "position": 37,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 137,
+     "position": 38,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 138,
+     "position": 39,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 139,
+     "position": 40,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 140,
+     "position": 41,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 141,
+     "position": 42,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 142,
+     "position": 43,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 143,
+     "position": 44,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 144,
+     "position": 45,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 145,
+     "position": 46,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 146,
+     "position": 47,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 147,
+     "position": 48,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 148,
+     "position": 49,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 149,
+     "position": 50,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 150,
+     "position": 51,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 151,
+     "position": 52,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 152,
+     "position": 53,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 153,
+     "position": 54,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 154,
+     "position": 55,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 155,
+     "position": 56,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 156,
+     "position": 57,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 157,
+     "position": 58,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 158,
+     "position": 59,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 159,
+     "position": 60,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 160,
+     "position": 61,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 161,
+     "position": 62,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 162,
+     "position": 63,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 163,
+     "position": 64,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 164,
+     "position": 65,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 165,
+     "position": 66,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 166,
+     "position": 67,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 167,
+     "position": 68,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 168,
+     "position": 69,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 169,
+     "position": 70,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 170,
+     "position": 71,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 171,
+     "position": 72,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 172,
+     "position": 73,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 173,
+     "position": 74,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 174,
+     "position": 75,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 175,
+     "position": 76,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 176,
+     "position": 77,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 177,
+     "position": 78,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 178,
+     "position": 79,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 179,
+     "position": 80,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 180,
+     "position": 81,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 181,
+     "position": 82,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 182,
+     "position": 83,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 183,
+     "position": 84,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 184,
+     "position": 85,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 185,
+     "position": 86,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 186,
+     "position": 87,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 187,
+     "position": 88,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 188,
+     "position": 89,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 189,
+     "position": 90,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 190,
+     "position": 91,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 191,
+     "position": 92,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 192,
+     "position": 93,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 193,
+     "position": 94,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 194,
+     "position": 95,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 195,
+     "position": 96,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 196,
+     "position": 97,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 197,
+     "position": 98,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 198,
+     "position": 99,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 199,
+     "position": 100,
+     "state": "unaudited",
+     "claim": null
+    }
+   ],
+   "claims": [
+    {
+     "id": "clm_1b3be940b299f2e12dad5108",
+     "step": 103,
+     "position": 4,
+     "contributor": "Gabby",
+     "hoursRunning": 22.5,
+     "expiresInHours": 25.5
+    },
+    {
+     "id": "clm_4a714dd3d35f6f3acaeaa393",
+     "step": 103,
+     "position": 4,
+     "contributor": "aimax",
+     "hoursRunning": 8.7,
+     "expiresInHours": 39.3
+    }
+   ],
+   "predecessor": "crowd-provided checkpoint",
+   "openingCheckpoint": 100,
+   "closingCheckpoint": 200,
+   "anchors": {
+    "opening": {
+     "step": 100,
+     "txHash": "0x8c9d0626fd90a102d1ee68763bf68b1b8a86e301e54c7341747a02a03dd2704c",
+     "block": 23706780,
+     "timestamp": "2026-09-10T08:49:24.000Z",
+     "weightsUri": "gs://gensyn-open-1b/ckpt/step_000000100/",
+     "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0x8c9d0626fd90a102d1ee68763bf68b1b8a86e301e54c7341747a02a03dd2704c"
+    },
+    "closing": {
+     "step": 200,
+     "txHash": "0x7f9e70d9c6aa9dac9b6820d2c7afb8d4201d72ad57748286b4c3be8c793a56f3",
+     "block": 23706782,
+     "timestamp": "2026-09-10T08:49:28.000Z",
+     "weightsUri": "gs://gensyn-open-1b/ckpt/step_000000200/",
+     "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0x7f9e70d9c6aa9dac9b6820d2c7afb8d4201d72ad57748286b4c3be8c793a56f3"
+    }
+   },
+   "expectedRuntimeHours": 6,
+   "fork": null
+  },
+  "121": {
+   "segment": 121,
+   "state": "claimed",
+   "firstStep": 12100,
+   "lastStep": 12199,
+   "span": 100,
+   "phase": "Main",
+   "acceptedSteps": 4,
+   "fillFraction": 0.04,
+   "frontier": {
+    "step": 12104,
+    "position": 5,
+    "state": "in-progress",
+    "claim": {
+     "id": "clm_36973402e2c602770a74a601",
+     "step": 12104,
+     "position": 5,
+     "contributor": "bo",
+     "hoursRunning": 19.3,
+     "expiresInHours": 28.7
+    }
+   },
+   "steps": [
+    {
+     "step": 12100,
+     "position": 1,
+     "state": "provisional",
+     "claim": null
+    },
+    {
+     "step": 12101,
+     "position": 2,
+     "state": "provisional",
+     "claim": null
+    },
+    {
+     "step": 12102,
+     "position": 3,
+     "state": "provisional",
+     "claim": null
+    },
+    {
+     "step": 12103,
+     "position": 4,
+     "state": "provisional",
+     "claim": null
+    },
+    {
+     "step": 12104,
+     "position": 5,
+     "state": "in-progress",
+     "claim": {
+      "id": "clm_36973402e2c602770a74a601",
+      "step": 12104,
+      "position": 5,
+      "contributor": "bo",
+      "hoursRunning": 19.3,
+      "expiresInHours": 28.7
+     }
+    },
+    {
+     "step": 12105,
+     "position": 6,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12106,
+     "position": 7,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12107,
+     "position": 8,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12108,
+     "position": 9,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12109,
+     "position": 10,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12110,
+     "position": 11,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12111,
+     "position": 12,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12112,
+     "position": 13,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12113,
+     "position": 14,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12114,
+     "position": 15,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12115,
+     "position": 16,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12116,
+     "position": 17,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12117,
+     "position": 18,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12118,
+     "position": 19,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12119,
+     "position": 20,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12120,
+     "position": 21,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12121,
+     "position": 22,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12122,
+     "position": 23,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12123,
+     "position": 24,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12124,
+     "position": 25,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12125,
+     "position": 26,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12126,
+     "position": 27,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12127,
+     "position": 28,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12128,
+     "position": 29,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12129,
+     "position": 30,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12130,
+     "position": 31,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12131,
+     "position": 32,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12132,
+     "position": 33,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12133,
+     "position": 34,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12134,
+     "position": 35,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12135,
+     "position": 36,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12136,
+     "position": 37,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12137,
+     "position": 38,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12138,
+     "position": 39,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12139,
+     "position": 40,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12140,
+     "position": 41,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12141,
+     "position": 42,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12142,
+     "position": 43,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12143,
+     "position": 44,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12144,
+     "position": 45,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12145,
+     "position": 46,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12146,
+     "position": 47,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12147,
+     "position": 48,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12148,
+     "position": 49,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12149,
+     "position": 50,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12150,
+     "position": 51,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12151,
+     "position": 52,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12152,
+     "position": 53,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12153,
+     "position": 54,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12154,
+     "position": 55,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12155,
+     "position": 56,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12156,
+     "position": 57,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12157,
+     "position": 58,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12158,
+     "position": 59,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12159,
+     "position": 60,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12160,
+     "position": 61,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12161,
+     "position": 62,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12162,
+     "position": 63,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12163,
+     "position": 64,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12164,
+     "position": 65,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12165,
+     "position": 66,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12166,
+     "position": 67,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12167,
+     "position": 68,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12168,
+     "position": 69,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12169,
+     "position": 70,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12170,
+     "position": 71,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12171,
+     "position": 72,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12172,
+     "position": 73,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12173,
+     "position": 74,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12174,
+     "position": 75,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12175,
+     "position": 76,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12176,
+     "position": 77,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12177,
+     "position": 78,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12178,
+     "position": 79,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12179,
+     "position": 80,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12180,
+     "position": 81,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12181,
+     "position": 82,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12182,
+     "position": 83,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12183,
+     "position": 84,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12184,
+     "position": 85,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12185,
+     "position": 86,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12186,
+     "position": 87,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12187,
+     "position": 88,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12188,
+     "position": 89,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12189,
+     "position": 90,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12190,
+     "position": 91,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12191,
+     "position": 92,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12192,
+     "position": 93,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12193,
+     "position": 94,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12194,
+     "position": 95,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12195,
+     "position": 96,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12196,
+     "position": 97,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12197,
+     "position": 98,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12198,
+     "position": 99,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 12199,
+     "position": 100,
+     "state": "unaudited",
+     "claim": null
+    }
+   ],
+   "claims": [
+    {
+     "id": "clm_36973402e2c602770a74a601",
+     "step": 12104,
+     "position": 5,
+     "contributor": "bo",
+     "hoursRunning": 19.3,
+     "expiresInHours": 28.7
+    }
+   ],
+   "predecessor": "crowd-provided checkpoint",
+   "openingCheckpoint": 12100,
+   "closingCheckpoint": 12200,
+   "anchors": {
+    "opening": {
+     "step": 12100,
+     "txHash": "0x61eab4c57200f646335e4c918aeb0c17f26e3d1e7f22ad6958337d28b5426e81",
+     "block": 23706950,
+     "timestamp": "2026-09-10T08:55:04.000Z",
+     "weightsUri": "gs://gensyn-open-1b/ckpt/step_000012100/",
+     "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0x61eab4c57200f646335e4c918aeb0c17f26e3d1e7f22ad6958337d28b5426e81"
+    },
+    "closing": {
+     "step": 12200,
+     "txHash": "0x6ac04f2a953879b0d6702641c4fde880ee0a1e61758df2a57df0aa690f21d58a",
+     "block": 23706950,
+     "timestamp": "2026-09-10T08:55:04.000Z",
+     "weightsUri": "gs://gensyn-open-1b/ckpt/step_000012200/",
+     "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0x6ac04f2a953879b0d6702641c4fde880ee0a1e61758df2a57df0aa690f21d58a"
+    }
+   },
+   "expectedRuntimeHours": 12,
+   "fork": null
+  },
+  "70": {
+   "segment": 70,
+   "state": "claimed",
+   "firstStep": 7000,
+   "lastStep": 7099,
+   "span": 100,
+   "phase": "Main",
+   "acceptedSteps": 1,
+   "fillFraction": 0.01,
+   "frontier": {
+    "step": 7001,
+    "position": 2,
+    "state": "in-progress",
+    "claim": {
+     "id": "clm_b145b83eaeb52b8d01f6e73c",
+     "step": 7001,
+     "position": 2,
+     "contributor": "jj",
+     "hoursRunning": 11.6,
+     "expiresInHours": 36.4
+    }
+   },
+   "steps": [
+    {
+     "step": 7000,
+     "position": 1,
+     "state": "provisional",
+     "claim": null
+    },
+    {
+     "step": 7001,
+     "position": 2,
+     "state": "in-progress",
+     "claim": {
+      "id": "clm_b145b83eaeb52b8d01f6e73c",
+      "step": 7001,
+      "position": 2,
+      "contributor": "jj",
+      "hoursRunning": 11.6,
+      "expiresInHours": 36.4
+     }
+    },
+    {
+     "step": 7002,
+     "position": 3,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7003,
+     "position": 4,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7004,
+     "position": 5,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7005,
+     "position": 6,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7006,
+     "position": 7,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7007,
+     "position": 8,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7008,
+     "position": 9,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7009,
+     "position": 10,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7010,
+     "position": 11,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7011,
+     "position": 12,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7012,
+     "position": 13,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7013,
+     "position": 14,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7014,
+     "position": 15,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7015,
+     "position": 16,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7016,
+     "position": 17,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7017,
+     "position": 18,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7018,
+     "position": 19,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7019,
+     "position": 20,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7020,
+     "position": 21,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7021,
+     "position": 22,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7022,
+     "position": 23,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7023,
+     "position": 24,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7024,
+     "position": 25,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7025,
+     "position": 26,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7026,
+     "position": 27,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7027,
+     "position": 28,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7028,
+     "position": 29,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7029,
+     "position": 30,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7030,
+     "position": 31,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7031,
+     "position": 32,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7032,
+     "position": 33,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7033,
+     "position": 34,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7034,
+     "position": 35,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7035,
+     "position": 36,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7036,
+     "position": 37,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7037,
+     "position": 38,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7038,
+     "position": 39,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7039,
+     "position": 40,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7040,
+     "position": 41,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7041,
+     "position": 42,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7042,
+     "position": 43,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7043,
+     "position": 44,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7044,
+     "position": 45,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7045,
+     "position": 46,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7046,
+     "position": 47,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7047,
+     "position": 48,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7048,
+     "position": 49,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7049,
+     "position": 50,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7050,
+     "position": 51,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7051,
+     "position": 52,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7052,
+     "position": 53,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7053,
+     "position": 54,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7054,
+     "position": 55,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7055,
+     "position": 56,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7056,
+     "position": 57,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7057,
+     "position": 58,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7058,
+     "position": 59,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7059,
+     "position": 60,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7060,
+     "position": 61,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7061,
+     "position": 62,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7062,
+     "position": 63,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7063,
+     "position": 64,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7064,
+     "position": 65,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7065,
+     "position": 66,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7066,
+     "position": 67,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7067,
+     "position": 68,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7068,
+     "position": 69,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7069,
+     "position": 70,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7070,
+     "position": 71,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7071,
+     "position": 72,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7072,
+     "position": 73,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7073,
+     "position": 74,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7074,
+     "position": 75,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7075,
+     "position": 76,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7076,
+     "position": 77,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7077,
+     "position": 78,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7078,
+     "position": 79,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7079,
+     "position": 80,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7080,
+     "position": 81,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7081,
+     "position": 82,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7082,
+     "position": 83,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7083,
+     "position": 84,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7084,
+     "position": 85,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7085,
+     "position": 86,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7086,
+     "position": 87,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7087,
+     "position": 88,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7088,
+     "position": 89,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7089,
+     "position": 90,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7090,
+     "position": 91,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7091,
+     "position": 92,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7092,
+     "position": 93,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7093,
+     "position": 94,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7094,
+     "position": 95,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7095,
+     "position": 96,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7096,
+     "position": 97,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7097,
+     "position": 98,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7098,
+     "position": 99,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 7099,
+     "position": 100,
+     "state": "unaudited",
+     "claim": null
+    }
+   ],
+   "claims": [
+    {
+     "id": "clm_b145b83eaeb52b8d01f6e73c",
+     "step": 7001,
+     "position": 2,
+     "contributor": "jj",
+     "hoursRunning": 11.6,
+     "expiresInHours": 36.4
+    }
+   ],
+   "predecessor": "crowd-provided checkpoint",
+   "openingCheckpoint": 7000,
+   "closingCheckpoint": 7100,
+   "anchors": {
+    "opening": {
+     "step": 7000,
+     "txHash": "0xd9068ac8ab945dd0d0dcbe8972adbbfbb8c73761e34d5033672a6da7e0fe079d",
+     "block": 23706939,
+     "timestamp": "2026-09-10T08:54:42.000Z",
+     "weightsUri": "gs://gensyn-open-1b/ckpt/step_000007000/",
+     "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0xd9068ac8ab945dd0d0dcbe8972adbbfbb8c73761e34d5033672a6da7e0fe079d"
+    },
+    "closing": {
+     "step": 7100,
+     "txHash": "0x64d84bb68dbd13555672fa864ef8641047e80e3a2129df38b4ba79f0e7d2cfa1",
+     "block": 23706939,
+     "timestamp": "2026-09-10T08:54:42.000Z",
+     "weightsUri": "gs://gensyn-open-1b/ckpt/step_000007100/",
+     "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0x64d84bb68dbd13555672fa864ef8641047e80e3a2129df38b4ba79f0e7d2cfa1"
+    }
+   },
+   "expectedRuntimeHours": 12,
+   "fork": null
+  },
+  "169": {
+   "segment": 169,
+   "state": "claimed",
+   "firstStep": 16900,
+   "lastStep": 16999,
+   "span": 100,
+   "phase": "Main",
+   "acceptedSteps": 2,
+   "fillFraction": 0.02,
+   "frontier": {
+    "step": 16902,
+    "position": 3,
+    "state": "in-progress",
+    "claim": {
+     "id": "clm_4f9f38fee7d4611825e40901",
+     "step": 16902,
+     "position": 3,
+     "contributor": "abc",
+     "hoursRunning": 28.6,
+     "expiresInHours": 19.4
+    }
+   },
+   "steps": [
+    {
+     "step": 16900,
+     "position": 1,
+     "state": "provisional",
+     "claim": null
+    },
+    {
+     "step": 16901,
+     "position": 2,
+     "state": "provisional",
+     "claim": null
+    },
+    {
+     "step": 16902,
+     "position": 3,
+     "state": "in-progress",
+     "claim": {
+      "id": "clm_4f9f38fee7d4611825e40901",
+      "step": 16902,
+      "position": 3,
+      "contributor": "abc",
+      "hoursRunning": 28.6,
+      "expiresInHours": 19.4
+     }
+    },
+    {
+     "step": 16903,
+     "position": 4,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16904,
+     "position": 5,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16905,
+     "position": 6,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16906,
+     "position": 7,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16907,
+     "position": 8,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16908,
+     "position": 9,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16909,
+     "position": 10,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16910,
+     "position": 11,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16911,
+     "position": 12,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16912,
+     "position": 13,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16913,
+     "position": 14,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16914,
+     "position": 15,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16915,
+     "position": 16,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16916,
+     "position": 17,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16917,
+     "position": 18,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16918,
+     "position": 19,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16919,
+     "position": 20,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16920,
+     "position": 21,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16921,
+     "position": 22,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16922,
+     "position": 23,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16923,
+     "position": 24,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16924,
+     "position": 25,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16925,
+     "position": 26,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16926,
+     "position": 27,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16927,
+     "position": 28,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16928,
+     "position": 29,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16929,
+     "position": 30,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16930,
+     "position": 31,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16931,
+     "position": 32,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16932,
+     "position": 33,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16933,
+     "position": 34,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16934,
+     "position": 35,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16935,
+     "position": 36,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16936,
+     "position": 37,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16937,
+     "position": 38,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16938,
+     "position": 39,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16939,
+     "position": 40,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16940,
+     "position": 41,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16941,
+     "position": 42,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16942,
+     "position": 43,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16943,
+     "position": 44,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16944,
+     "position": 45,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16945,
+     "position": 46,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16946,
+     "position": 47,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16947,
+     "position": 48,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16948,
+     "position": 49,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16949,
+     "position": 50,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16950,
+     "position": 51,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16951,
+     "position": 52,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16952,
+     "position": 53,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16953,
+     "position": 54,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16954,
+     "position": 55,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16955,
+     "position": 56,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16956,
+     "position": 57,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16957,
+     "position": 58,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16958,
+     "position": 59,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16959,
+     "position": 60,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16960,
+     "position": 61,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16961,
+     "position": 62,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16962,
+     "position": 63,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16963,
+     "position": 64,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16964,
+     "position": 65,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16965,
+     "position": 66,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16966,
+     "position": 67,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16967,
+     "position": 68,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16968,
+     "position": 69,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16969,
+     "position": 70,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16970,
+     "position": 71,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16971,
+     "position": 72,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16972,
+     "position": 73,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16973,
+     "position": 74,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16974,
+     "position": 75,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16975,
+     "position": 76,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16976,
+     "position": 77,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16977,
+     "position": 78,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16978,
+     "position": 79,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16979,
+     "position": 80,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16980,
+     "position": 81,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16981,
+     "position": 82,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16982,
+     "position": 83,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16983,
+     "position": 84,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16984,
+     "position": 85,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16985,
+     "position": 86,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16986,
+     "position": 87,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16987,
+     "position": 88,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16988,
+     "position": 89,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16989,
+     "position": 90,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16990,
+     "position": 91,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16991,
+     "position": 92,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16992,
+     "position": 93,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16993,
+     "position": 94,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16994,
+     "position": 95,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16995,
+     "position": 96,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16996,
+     "position": 97,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16997,
+     "position": 98,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16998,
+     "position": 99,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 16999,
+     "position": 100,
+     "state": "unaudited",
+     "claim": null
+    }
+   ],
+   "claims": [
+    {
+     "id": "clm_4f9f38fee7d4611825e40901",
+     "step": 16902,
+     "position": 3,
+     "contributor": "abc",
+     "hoursRunning": 28.6,
+     "expiresInHours": 19.4
+    }
+   ],
+   "predecessor": "crowd-provided checkpoint",
+   "openingCheckpoint": 16900,
+   "closingCheckpoint": 17000,
+   "anchors": {
+    "opening": {
+     "step": 16900,
+     "txHash": "0xfa3f7e83a94708ddf4e0b58c176937634e160e5dbf17a9ed15dd2f636f511912",
+     "block": 23706959,
+     "timestamp": "2026-09-10T08:55:22.000Z",
+     "weightsUri": "gs://gensyn-open-1b/ckpt/step_000016900/",
+     "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0xfa3f7e83a94708ddf4e0b58c176937634e160e5dbf17a9ed15dd2f636f511912"
+    },
+    "closing": {
+     "step": 17000,
+     "txHash": "0x8c0b509461ca7c62b9a884c16f9cf3296ec8dbff2be11c318938844b17a76e1b",
+     "block": 23706959,
+     "timestamp": "2026-09-10T08:55:22.000Z",
+     "weightsUri": "gs://gensyn-open-1b/ckpt/step_000017000/",
+     "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0x8c0b509461ca7c62b9a884c16f9cf3296ec8dbff2be11c318938844b17a76e1b"
+    }
+   },
+   "expectedRuntimeHours": 12,
+   "fork": {
+    "boundaryStep": 16900,
+    "descriptorCheckpointUri": "gs://gensyn-open-1b/ckpt/step_000017000/",
+    "note": "Loss scale target changed from 2^6 to 2^4."
+   }
+  },
+  "2": {
+   "segment": 2,
+   "state": "claimed",
+   "firstStep": 200,
+   "lastStep": 299,
+   "span": 100,
+   "phase": "Warmup",
+   "acceptedSteps": 1,
+   "fillFraction": 0.01,
+   "frontier": {
+    "step": 201,
+    "position": 2,
+    "state": "in-progress",
+    "claim": {
+     "id": "clm_b956dd54098e2d9f90f1e0bf",
+     "step": 201,
+     "position": 2,
+     "contributor": "Johnny",
+     "hoursRunning": 25.1,
+     "expiresInHours": 22.9
+    }
+   },
+   "steps": [
+    {
+     "step": 200,
+     "position": 1,
+     "state": "provisional",
+     "claim": null
+    },
+    {
+     "step": 201,
+     "position": 2,
+     "state": "in-progress",
+     "claim": {
+      "id": "clm_b956dd54098e2d9f90f1e0bf",
+      "step": 201,
+      "position": 2,
+      "contributor": "Johnny",
+      "hoursRunning": 25.1,
+      "expiresInHours": 22.9
+     }
+    },
+    {
+     "step": 202,
+     "position": 3,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 203,
+     "position": 4,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 204,
+     "position": 5,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 205,
+     "position": 6,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 206,
+     "position": 7,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 207,
+     "position": 8,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 208,
+     "position": 9,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 209,
+     "position": 10,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 210,
+     "position": 11,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 211,
+     "position": 12,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 212,
+     "position": 13,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 213,
+     "position": 14,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 214,
+     "position": 15,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 215,
+     "position": 16,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 216,
+     "position": 17,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 217,
+     "position": 18,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 218,
+     "position": 19,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 219,
+     "position": 20,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 220,
+     "position": 21,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 221,
+     "position": 22,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 222,
+     "position": 23,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 223,
+     "position": 24,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 224,
+     "position": 25,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 225,
+     "position": 26,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 226,
+     "position": 27,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 227,
+     "position": 28,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 228,
+     "position": 29,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 229,
+     "position": 30,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 230,
+     "position": 31,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 231,
+     "position": 32,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 232,
+     "position": 33,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 233,
+     "position": 34,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 234,
+     "position": 35,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 235,
+     "position": 36,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 236,
+     "position": 37,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 237,
+     "position": 38,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 238,
+     "position": 39,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 239,
+     "position": 40,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 240,
+     "position": 41,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 241,
+     "position": 42,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 242,
+     "position": 43,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 243,
+     "position": 44,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 244,
+     "position": 45,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 245,
+     "position": 46,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 246,
+     "position": 47,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 247,
+     "position": 48,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 248,
+     "position": 49,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 249,
+     "position": 50,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 250,
+     "position": 51,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 251,
+     "position": 52,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 252,
+     "position": 53,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 253,
+     "position": 54,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 254,
+     "position": 55,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 255,
+     "position": 56,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 256,
+     "position": 57,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 257,
+     "position": 58,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 258,
+     "position": 59,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 259,
+     "position": 60,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 260,
+     "position": 61,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 261,
+     "position": 62,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 262,
+     "position": 63,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 263,
+     "position": 64,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 264,
+     "position": 65,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 265,
+     "position": 66,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 266,
+     "position": 67,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 267,
+     "position": 68,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 268,
+     "position": 69,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 269,
+     "position": 70,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 270,
+     "position": 71,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 271,
+     "position": 72,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 272,
+     "position": 73,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 273,
+     "position": 74,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 274,
+     "position": 75,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 275,
+     "position": 76,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 276,
+     "position": 77,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 277,
+     "position": 78,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 278,
+     "position": 79,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 279,
+     "position": 80,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 280,
+     "position": 81,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 281,
+     "position": 82,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 282,
+     "position": 83,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 283,
+     "position": 84,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 284,
+     "position": 85,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 285,
+     "position": 86,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 286,
+     "position": 87,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 287,
+     "position": 88,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 288,
+     "position": 89,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 289,
+     "position": 90,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 290,
+     "position": 91,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 291,
+     "position": 92,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 292,
+     "position": 93,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 293,
+     "position": 94,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 294,
+     "position": 95,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 295,
+     "position": 96,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 296,
+     "position": 97,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 297,
+     "position": 98,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 298,
+     "position": 99,
+     "state": "unaudited",
+     "claim": null
+    },
+    {
+     "step": 299,
+     "position": 100,
+     "state": "unaudited",
+     "claim": null
+    }
+   ],
+   "claims": [
+    {
+     "id": "clm_b956dd54098e2d9f90f1e0bf",
+     "step": 201,
+     "position": 2,
+     "contributor": "Johnny",
+     "hoursRunning": 25.1,
+     "expiresInHours": 22.9
+    }
+   ],
+   "predecessor": "crowd-provided checkpoint",
+   "openingCheckpoint": 200,
+   "closingCheckpoint": 300,
+   "anchors": {
+    "opening": {
+     "step": 200,
+     "txHash": "0x7f9e70d9c6aa9dac9b6820d2c7afb8d4201d72ad57748286b4c3be8c793a56f3",
+     "block": 23706782,
+     "timestamp": "2026-09-10T08:49:28.000Z",
+     "weightsUri": "gs://gensyn-open-1b/ckpt/step_000000200/",
+     "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0x7f9e70d9c6aa9dac9b6820d2c7afb8d4201d72ad57748286b4c3be8c793a56f3"
+    },
+    "closing": {
+     "step": 300,
+     "txHash": "0xe00808d7da5276207c6523683e8f357274e79484db9feeaa1fb1b4acd941dfc0",
+     "block": 23706784,
+     "timestamp": "2026-09-10T08:49:32.000Z",
+     "weightsUri": "gs://gensyn-open-1b/ckpt/step_000000300/",
+     "explorerUrl": "https://gensyn-testnet.explorer.alchemy.com/tx/0xe00808d7da5276207c6523683e8f357274e79484db9feeaa1fb1b4acd941dfc0"
+    }
+   },
+   "expectedRuntimeHours": 6,
+   "fork": null
+  }
+ },
+ "contributors": [
+  {
+   "handle": "ben",
+   "eth": "0xd1eeBFfCb48033C1bE77996148DeBdFE65f85483",
+   "selfReported": true,
+   "inscribed": true,
+   "audits": [
+    {
+     "id": "sub_e9af377d04e95820e6ad3509",
+     "step": 102,
+     "segment": 1,
+     "contributor": "ben",
+     "eth": "0xd1eeBFfCb48033C1bE77996148DeBdFE65f85483",
+     "hardware": "Apple M4 Pro \u00b7 48 GB",
+     "runtimeHours": 19.2069,
+     "reportedStateHash": "e65f46aecf3ceaf1b497622f6f0b47f14d6c55c4c1128d3d07b43120b112bf2d",
+     "canonicalUri": "gs://gensyn-open-1b/open-1b/handoffs/step_000000103/handoff.safetensors",
+     "artifactDigest": "e53fd580c642d743dd4e395f224d7f9dc549c3c12b01423a2ca5562a6a596f7c",
+     "acceptedAt": 1789398146527,
+     "superseded": false
+    }
+   ]
+  },
+  {
+   "handle": "adam",
+   "eth": null,
+   "selfReported": true,
+   "inscribed": true,
+   "audits": [
+    {
+     "id": "sub_e0d4240a890f772ccd0ea4a7",
+     "step": 12100,
+     "segment": 121,
+     "contributor": "adam",
+     "eth": null,
+     "hardware": "NVIDIA H100 80GB HBM3 \u00b7 96 GB",
+     "runtimeHours": 0.6451,
+     "reportedStateHash": "d0be3e58ffa9d5338b97f4b6d24df640e802f6cc1f48e98652613d3d8be9e863",
+     "canonicalUri": "gs://gensyn-open-1b/open-1b/handoffs/step_000012101/handoff.safetensors",
+     "artifactDigest": "f0714f130fff8bc704672cdcc666dd0f133ea1db6ef7768ff343419d6a3c14bf",
+     "acceptedAt": 1789151676039,
+     "superseded": false
+    },
+    {
+     "id": "sub_9713a6a8cddf4a2d69c8a8fe",
+     "step": 12101,
+     "segment": 121,
+     "contributor": "adam",
+     "eth": null,
+     "hardware": "NVIDIA H100 80GB HBM3 \u00b7 96 GB",
+     "runtimeHours": 0.7157,
+     "reportedStateHash": "16dbad3a5073d79f5dccbedc1f164699bd6cf0b948fa112ef815dca96547d366",
+     "canonicalUri": "gs://gensyn-open-1b/open-1b/handoffs/step_000012102/handoff.safetensors",
+     "artifactDigest": "b6ef46be991cebd5e85663970f3472243d26d017e266652724c35fc0b07e2399",
+     "acceptedAt": 1789156488441,
+     "superseded": false
+    },
+    {
+     "id": "sub_8e91de94aafc007c41a2a4ef",
+     "step": 12102,
+     "segment": 121,
+     "contributor": "adam",
+     "eth": null,
+     "hardware": "NVIDIA H100 80GB \u00b7 96 GB",
+     "runtimeHours": 0.4936,
+     "reportedStateHash": "75f02647b23228b4723a070c7daa455fada79ece8937f0dcc10c593f9b929b7a",
+     "canonicalUri": "gs://gensyn-open-1b/open-1b/handoffs/step_000012103/handoff.safetensors",
+     "artifactDigest": "ce5d296ee73a2800afd5061e67d3aeb678ef5a11d59277730142f4a65e8b1a8c",
+     "acceptedAt": 1789411311197,
+     "superseded": false
+    },
+    {
+     "id": "sub_34c6665b513762ca2b22c4bd",
+     "step": 12103,
+     "segment": 121,
+     "contributor": "adam",
+     "eth": null,
+     "hardware": "NVIDIA H100 80GB \u00b7 96 GB",
+     "runtimeHours": 0.5103,
+     "reportedStateHash": "398b1da0298a15b519be7850d06aed4fc48b7bdddcf203079023022b16128098",
+     "canonicalUri": "gs://gensyn-open-1b/open-1b/handoffs/step_000012104/handoff.safetensors",
+     "artifactDigest": "0d8ef1ab89fdcfb6fb70eda37fbd8ac33dceef2daa2bbcfe2a118394de634dfe",
+     "acceptedAt": 1789424862947,
+     "superseded": false
+    }
+   ]
+  },
+  {
+   "handle": "Johnny",
+   "eth": null,
+   "selfReported": true,
+   "inscribed": true,
+   "audits": [
+    {
+     "id": "sub_0132a5035ac5b04d06cb706a",
+     "step": 100,
+     "segment": 1,
+     "contributor": "Johnny",
+     "eth": null,
+     "hardware": "H100 80GB HBM3 \u00b7 1x",
+     "runtimeHours": 2.773,
+     "reportedStateHash": "9bef25cdbb77488eb9921ba3312f49df55fd867b6d32e2c671ec21c7f4eac344",
+     "canonicalUri": "gs://gensyn-open-1b/open-1b/handoffs/step_000000101/handoff.safetensors",
+     "artifactDigest": "c851a69639eb3b52aa150cf9fd2bb84a4145501c0d6e846e0b71e2aa12639f79",
+     "acceptedAt": 1789150823675,
+     "superseded": false
+    },
+    {
+     "id": "sub_88c10b24081656896d8ac6aa",
+     "step": 200,
+     "segment": 2,
+     "contributor": "Johnny",
+     "eth": null,
+     "hardware": "M5",
+     "runtimeHours": 8.6197,
+     "reportedStateHash": "0d4b42095acc08a427c381c186987960025e5be4c8bae1ffc76a1ae50f8aff81",
+     "canonicalUri": "gs://gensyn-open-1b/open-1b/handoffs/step_000000201/handoff.safetensors",
+     "artifactDigest": "3ba7e9cfbde6eb35f960cf4c84e5285c99446af0cbce474983244b013e77bb91",
+     "acceptedAt": 1789206140267,
+     "superseded": false
+    },
+    {
+     "id": "sub_1a5a1a801219c23874eb95d8",
+     "step": 7000,
+     "segment": 70,
+     "contributor": "Johnny",
+     "eth": null,
+     "hardware": "H100 \u00b7 64 GB",
+     "runtimeHours": 0.4881,
+     "reportedStateHash": "054356121094f4eceba42724bc68a37cb25f35aef8c5c094a02c1ffacd4cf832",
+     "canonicalUri": "gs://gensyn-open-1b/open-1b/handoffs/step_000007001/handoff.safetensors",
+     "artifactDigest": "c4b14aa080e20b9f150f26c7fae0aa7ac46a3c8735c47e125ce40eccf2f8486c",
+     "acceptedAt": 1789429531623,
+     "superseded": false
+    },
+    {
+     "id": "sub_55d8c32aaa1a034eb3772cba",
+     "step": 16900,
+     "segment": 169,
+     "contributor": "Johnny",
+     "eth": null,
+     "hardware": "H100",
+     "runtimeHours": 0.6745,
+     "reportedStateHash": "ee941f794537723b6653361b545f9813c4d00dab8968c9b55ffe51a4345775d3",
+     "canonicalUri": "gs://gensyn-open-1b/open-1b/handoffs/step_000016901/handoff.safetensors",
+     "artifactDigest": "7dbf5647994069706fb0152bead91d4b9d1f2b767ba592a43cb9a4db75c141d8",
+     "acceptedAt": 1789163111001,
+     "superseded": false
+    },
+    {
+     "id": "sub_8068aea4ead0f43b4856a2bf",
+     "step": 16901,
+     "segment": 169,
+     "contributor": "Johnny",
+     "eth": null,
+     "hardware": "H100",
+     "runtimeHours": 1.1081,
+     "reportedStateHash": "885016d1b684746022e4e280bd58e6093efa0f075fda159d776f8ab879821f42",
+     "canonicalUri": "gs://gensyn-open-1b/open-1b/handoffs/step_000016902/handoff.safetensors",
+     "artifactDigest": "d75de0be9f81ba263a22ba49fc08e1d58d0d172f91868d9f3b3612ef4eab83f3",
+     "acceptedAt": 1789170305913,
+     "superseded": false
+    }
+   ]
+  },
+  {
+   "handle": "ben2",
+   "eth": null,
+   "selfReported": true,
+   "inscribed": true,
+   "audits": [
+    {
+     "id": "sub_fddd37284f7f2d1983181f0c",
+     "step": 101,
+     "segment": 1,
+     "contributor": "ben2",
+     "eth": null,
+     "hardware": "M5 \u00b7 24 GB",
+     "runtimeHours": 17.9515,
+     "reportedStateHash": "6fd7588d9dc8535662b9b80da7e00f2cac19c0445574f351fd522e30bac80692",
+     "canonicalUri": "gs://gensyn-open-1b/open-1b/handoffs/step_000000102/handoff.safetensors",
+     "artifactDigest": "65dcecdbbacb65a227c929db85357f275cf2f8ac094abdf146f50d4b954b04ae",
+     "acceptedAt": 1789239836893,
+     "superseded": false
+    }
+   ]
+  }
+ ],
+ "foc": {
+  "network": "Filecoin calibration",
+  "dataSet": {
+   "id": 36417,
+   "providerId": 4,
+   "providerName": "infrafolio-calib",
+   "serviceUrl": "https://caliberation-pdp.infrafolio.com",
+   "owner": "0x44f08D1beFe61255b3C3A349C392C560FA333759",
+   "metadata": {
+    "app": "open1b-foc-demo"
+   }
+  },
+  "generatedAt": null
+ },
+ "pieces": []
+}

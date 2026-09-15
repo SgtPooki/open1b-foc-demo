@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>open-1b training audits, on Filecoin Onchain Cloud</title>
+<style>
+  :root { --fg:#111; --muted:#666; --line:#ddd; --bg:#fff; --ok:#1a7f37; --warn:#9a6700; --bad:#b42318; --accent:#0052ff; --card:#f6f7f9; }
+  @media (prefers-color-scheme: dark) { :root { --fg:#eee; --muted:#999; --line:#333; --bg:#111; --card:#1a1a1a; --accent:#6ea8ff; } }
+  * { box-sizing:border-box }
+  body { margin:0; font:15px/1.5 system-ui, sans-serif; color:var(--fg); background:var(--bg) }
+  header { border-bottom:1px solid var(--line); padding:14px 24px; display:flex; gap:24px; align-items:baseline; flex-wrap:wrap }
+  header h1 { font-size:16px; margin:0; font-weight:600 }
+  header nav a { margin-right:16px; color:var(--muted); text-decoration:none }
+  header nav a.on { color:var(--fg); border-bottom:2px solid var(--accent) }
+  main { max-width:1100px; margin:0 auto; padding:24px }
+  h2 { font-size:22px; margin:0 0 6px }
+  h3 { font-size:13px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); margin:28px 0 8px }
+  .measure { max-width:70ch; color:var(--muted) }
+  .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin:16px 0 }
+  .stat { background:var(--card); padding:12px; border-radius:6px }
+  .stat b { display:block; font-size:24px; font-weight:600 }
+  .stat span { color:var(--muted); font-size:12px }
+  table { width:100%; border-collapse:collapse; font-size:13px }
+  th, td { text-align:left; padding:7px 10px 7px 0; border-bottom:1px solid var(--line); vertical-align:top; white-space:nowrap }
+  th { color:var(--muted); font-weight:500 }
+  code, .mono { font-family:ui-monospace, Menlo, monospace; font-size:12px }
+  .hash { font-family:ui-monospace, Menlo, monospace; font-size:12px; word-break:break-all; white-space:normal }
+  a { color:var(--accent) }
+  .badge { display:inline-block; font-size:11px; padding:1px 7px; border-radius:10px; border:1px solid var(--line); color:var(--muted); margin-left:6px }
+  .badge.ok { color:var(--ok); border-color:var(--ok) }
+  .badge.warn { color:var(--warn); border-color:var(--warn) }
+  .badge.bad { color:var(--bad); border-color:var(--bad) }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(340px,1fr)); gap:16px }
+  .card { background:var(--card); border-radius:6px; padding:14px }
+  .card h4 { margin:0 0 10px; font-size:14px }
+  .kv { display:grid; grid-template-columns:150px 1fr; gap:4px 12px; font-size:13px }
+  .kv dt { color:var(--muted) } .kv dd { margin:0; word-break:break-all }
+  .cov { display:grid; grid-template-columns:repeat(90,1fr); gap:1px; margin:8px 0 }
+  .cov i { display:block; aspect-ratio:1; background:var(--line); border-radius:1px }
+  .cov i.claimed { background:var(--warn) } .cov i.provisional, .cov i.confirmed { background:var(--ok) } .cov i.mirrored { outline:2px solid var(--accent); outline-offset:-1px }
+  pre { background:var(--card); padding:12px; border-radius:6px; overflow:auto; font-size:12px }
+  button { font:inherit; padding:6px 12px; border:1px solid var(--line); background:var(--bg); color:var(--fg); border-radius:4px; cursor:pointer }
+  .note { font-size:12px; color:var(--muted) }
+</style>
+</head>
+<body>
+<header>
+  <h1>open-1b training audits <span class="note">· record mirrored to Filecoin Onchain Cloud (calibration)</span></h1>
+  <nav id="nav"></nav>
+</header>
+<main id="app">Loading record…</main>
+<script>
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const short = (h, n = 10) => h ? `${h.slice(0, n)}…${h.slice(-6)}` : '';
+const gb = (b) => (b / 1e9).toFixed(1) + ' GB';
+let D;
+
+const routes = {
+  '': overview, 'ledger': ledger, 'step': stepView, 'segment': segmentView, 'contributors': contributorsView, 'foc': focView,
+};
+
+function render() {
+  const [view, id] = location.hash.replace(/^#\/?/, '').split('/');
+  $('#nav').innerHTML = ['', 'ledger', 'contributors', 'foc'].map(v =>
+    `<a href="#/${v}" class="${v === view ? 'on' : ''}">${v || 'record'}</a>`).join('');
+  $('#app').innerHTML = (routes[view] || overview)(id);
+  document.title = `open-1b · ${view || 'record'}${id ? ' ' + id : ''}`;
+}
+
+function mirrorBadge(m) {
+  if (!m) return `<span class="badge">not yet mirrored</span>`;
+  const ok = m.blake2b256 && m.expected ? m.blake2b256 === m.expected : null;
+  const digest = ok === null ? '' : ok ? `<span class="badge ok">digest verified</span>` : `<span class="badge bad">digest mismatch</span>`;
+  return `<span class="badge ok">on FOC</span>${digest}`;
+}
+
+function mirrorCard(title, m, expected) {
+  if (!m) return `<div class="card"><h4>${title}</h4><p class="note">Not mirrored yet. Every artifact in the run is a public GCS object; mirroring is a <code>filecoin-pin add</code> away.</p></div>`;
+  const foc = D.foc;
+  return `<div class="card"><h4>${title} ${mirrorBadge({...m, expected})}</h4>
+  <dl class="kv">
+    <dt>Source</dt><dd class="mono">${esc(m.source)}</dd>
+    <dt>Size</dt><dd>${gb(m.size)}${m.files ? ` · ${m.files} files` : ''}</dd>
+    ${m.blake2b256 ? `<dt>BLAKE2b-256 (ours)</dt><dd class="hash">${m.blake2b256}</dd>` : ''}
+    ${expected ? `<dt>BLAKE2b-256 (Gensyn)</dt><dd class="hash">${expected}</dd>` : ''}
+    ${m.sha256 ? `<dt>SHA-256</dt><dd class="hash">${m.sha256}</dd>` : ''}
+    <dt>Packaging</dt><dd>${m.packaging === 'tar' ? 'tar stream' : 'raw bytes'} in ${m.parts.length} pieces of ≤1000 MiB</dd>
+    <dt>Data set</dt><dd><a href="https://pdp.vxb.ai/calibration/dataset/${foc.dataSet.id}">#${foc.dataSet.id}</a> · provider ${foc.dataSet.providerId} (${esc(foc.dataSet.providerName)})</dd>
+    <dt>Pieces</dt><dd>${m.parts.map(p => `<a class="mono" href="https://pdp.vxb.ai/calibration/piece/${p.pieceCid}" title="${p.pieceCid}">#${p.pieceId}</a>`).join(' ')}</dd>
+    <dt>Retrieve</dt><dd>${m.parts.slice(0, 1).map(p => `<a href="${foc.dataSet.serviceUrl}/piece/${p.pieceCid}">first piece CAR</a> · <a href="https://inbrowser.link/ipfs/${p.rootCid}">first piece via IPFS</a>`)} · all via <code>scripts/verify.sh</code></dd>
+    <dt>Proof of possession</dt><dd>PDP, challenged every proving period on Filecoin calibration · <a href="https://pdp.vxb.ai/calibration/dataset/${foc.dataSet.id}">live status</a></dd>
+  </dl></div>`;
+}
+
+function overview() {
+  const c = D.coverage, f = D.foc;
+  const mirroredSegs = new Set(D.steps.filter(s => s.artifactMirror || s.predecessorMirror).map(s => s.segment));
+  const bytes = D.pieces.reduce((a, p) => a + p.size, 0);
+  return `
+  <h2>The record, with the bytes to back it</h2>
+  <p class="measure">Gensyn publishes a hash for every training step of open-1b and anchors segment commitments to its testnet. The checkpoints those hashes describe live at mutable <code>gs://</code> paths. This mirror puts the same artifacts on Filecoin Onchain Cloud: the CID is the commitment, and a storage provider proves possession on-chain every proving period. Same audit flow, durable evidence.</p>
+  <div class="stats">
+    <div class="stat"><b>${c.totalSteps.toLocaleString()}</b><span>training steps</span></div>
+    <div class="stat"><b>${c.stepsAudited}</b><span>steps audited (Gensyn)</span></div>
+    <div class="stat"><b>${c.segmentsConfirmed} / ${c.totalSegments}</b><span>segments confirmed</span></div>
+    <div class="stat"><b>${c.contributors}</b><span>contributors</span></div>
+    <div class="stat"><b>${D.pieces.length}</b><span>artifacts on FOC</span></div>
+    <div class="stat"><b>${gb(bytes)}</b><span>bytes proven on Filecoin</span></div>
+  </div>
+  <h3>Coverage · 810 segments of 100 steps <span class="note">(outlined = has an artifact on FOC)</span></h3>
+  <div class="cov">${c.segments.map(([state], i) => `<a href="#/segment/${i + 1}" title="segment ${i + 1}: ${state}"><i class="${state}${mirroredSegs.has(i + 1) ? ' mirrored' : ''}"></i></a>`).join('')}</div>
+  <h3>Accepted audits</h3>
+  ${ledgerTable(D.steps)}
+  <h3>Where the bytes are</h3>
+  <div class="grid">
+    <div class="card"><h4>Gensyn today</h4><dl class="kv">
+      <dt>Artifacts</dt><dd>Google Cloud Storage, <code>gs://gensyn-open-1b</code>, public</dd>
+      <dt>Integrity</dt><dd>SHA-256 digest recorded in Gensyn's API</dd>
+      <dt>Commitment</dt><dd>Segment Merkle root sent as calldata on Gensyn Testnet (chain 685685)</dd>
+      <dt>Availability</dt><dd>Trust Gensyn to keep the bucket</dd>
+    </dl></div>
+    <div class="card"><h4>This mirror</h4><dl class="kv">
+      <dt>Artifacts</dt><dd>Filecoin Onchain Cloud, data set <a href="https://pdp.vxb.ai/calibration/dataset/${f.dataSet.id}">#${f.dataSet.id}</a> on ${esc(f.network)}</dd>
+      <dt>Integrity</dt><dd>Content-addressed: IPFS root CID + Filecoin piece CID</dd>
+      <dt>Commitment</dt><dd>Piece CID added on-chain by <code>addPieces</code>; owner ${short(f.dataSet.owner, 8)}</dd>
+      <dt>Availability</dt><dd>Provider answers PDP challenges on-chain; faults are public</dd>
+    </dl></div>
+  </div>`;
+}
+
+function ledgerTable(rows) {
+  return `<table><thead><tr><th>Step</th><th>Segment</th><th>Contributor</th><th>Hardware</th><th>Hours</th><th>State hash</th><th>Audit artifact</th><th>Predecessor</th></tr></thead><tbody>
+  ${rows.map(s => `<tr>
+    <td><a href="#/step/${s.step}">${s.step.toLocaleString()}</a></td>
+    <td><a href="#/segment/${s.segment}">${s.segment}</a></td>
+    <td><a href="#/contributors">${esc(s.contributor)}</a></td>
+    <td>${esc(s.hardware)}</td><td>${s.runtime_hours.toFixed(1)}</td>
+    <td class="mono">${short(s.committed_state_hash)}</td>
+    <td>${mirrorBadge(s.artifactMirror && {...s.artifactMirror, expected: s.artifact_digest})}</td>
+    <td>${mirrorBadge(s.predecessorMirror)}</td>
+  </tr>`).join('')}</tbody></table>`;
+}
+
+function ledger() { return `<h2>The ledger</h2><p class="measure">Every accepted audit, straight from Gensyn's record, with the location of the bytes on Filecoin beside it.</p>${ledgerTable(D.steps)}`; }
+
+function stepView(id) {
+  const s = D.steps.find(x => x.step === Number(id));
+  if (!s) return `<h2>Step ${esc(id)}</h2><p class="measure">No accepted audit for this step yet.</p>`;
+  const r = s.receipt, a = r.anchor, f = D.foc;
+  const predUrl = s.predecessorMirror ? `${f.dataSet.serviceUrl}/piece/${s.predecessorMirror.parts[0].pieceCid} (+${s.predecessorMirror.parts.length - 1} more)` : r.predecessor.uri;
+  return `
+  <h2>Step ${s.step.toLocaleString()} <span class="badge">${esc(r.phase)}</span> <span class="badge ${r.state === 'confirmed' ? 'ok' : 'warn'}">${esc(r.state)}</span></h2>
+  <p class="measure">Segment ${s.segment}, position ${r.position}. Audited by ${esc(s.contributor)} on ${esc(s.hardware)} in ${s.runtime_hours.toFixed(2)} h, accepted ${new Date(s.accepted_at).toUTCString()}.</p>
+  <h3>Hashes</h3>
+  <dl class="kv">
+    <dt>Committed by Gensyn</dt><dd class="hash">${r.committed}</dd>
+    <dt>Reproduced by auditor</dt><dd class="hash">${r.reproduced} ${r.committed === r.reproduced ? '<span class="badge ok">match</span>' : '<span class="badge bad">mismatch</span>'}</dd>
+    <dt>Artifact digest</dt><dd class="hash">${s.artifact_digest} <span class="note">BLAKE2b-256 of the handoff bytes (determined empirically; Gensyn does not label the algorithm)</span></dd>
+  </dl>
+  <h3>The bytes</h3>
+  <div class="grid">
+    ${mirrorCard(`Predecessor · ${esc(r.predecessor.kind)}`, s.predecessorMirror, r.predecessor.digest)}
+    ${mirrorCard('Audit artifact · handoff after this step', s.artifactMirror, s.artifact_digest)}
+  </div>
+  <h3>Anchors</h3>
+  <div class="grid">
+    <div class="card"><h4>Gensyn Testnet</h4>${a ? `<dl class="kv">
+      <dt>Anchored step</dt><dd>${a.step}</dd>
+      <dt>Transaction</dt><dd class="hash"><a href="${a.explorerUrl}">${a.txHash}</a></dd>
+      <dt>Block</dt><dd>${a.block} · ${a.timestamp}</dd>
+      <dt>Weights</dt><dd class="mono">${esc(a.weightsUri)}</dd>
+      <dt>What it proves</dt><dd>That a 32-byte value existed at a time. Nothing about whether <code>${esc(a.weightsUri)}</code> still resolves.</dd>
+    </dl>` : '<p class="note">No anchor for this step.</p>'}</div>
+    <div class="card"><h4>Filecoin calibration</h4>${s.artifactMirror ? `<dl class="kv">
+      <dt>Data set</dt><dd><a href="https://pdp.vxb.ai/calibration/dataset/${f.dataSet.id}">#${f.dataSet.id}</a> (PDPVerifier)</dd>
+      <dt>Pieces</dt><dd>${s.artifactMirror.parts.length} pieces, ${gb(s.artifactMirror.size)}</dd>
+      <dt>Proving</dt><dd>Provider must answer random challenges over these bytes every proving period, or the fault is recorded on-chain.</dd>
+      <dt>What it proves</dt><dd>That the exact bytes behind the digest above are still held, right now, by a named provider.</dd>
+    </dl>` : '<p class="note">Mirror this step\'s artifact to get an on-chain possession proof.</p>'}</div>
+  </div>
+  <h3>Merkle proof · segment ${s.segment}</h3>
+  <p class="note">Leaf is the committed state hash. ${r.proof.path.length} siblings up to root <span class="hash">${r.proof.root}</span>. Gensyn has not published the node hashing rule, so this page shows the proof without recomputing it.</p>
+  <table><thead><tr><th>Level</th><th>Side</th><th>Sibling</th></tr></thead><tbody>${r.proof.path.map(p => `<tr><td>${p.level}</td><td>${p.side}</td><td class="mono">${p.hash}</td></tr>`).join('')}</tbody></table>
+  <h3>Audit this step yourself, from Filecoin</h3>
+  <p class="note">The same replay Gensyn's tool runs, with the predecessor fetched from a storage provider instead of Gensyn's bucket. Apple Silicon with 40 GB or more, or a 24 GB CUDA card.</p>
+  <pre>uv tool install --python 3.11 gensyn-audit
+# predecessor for step ${s.step}:
+#   Gensyn:   ${esc(r.predecessor.uri)}
+#   Filecoin: ${esc(predUrl)}
+gensyn-audit step ${s.step} --predecessor "${esc(predUrl)}"   # flag name illustrative; see gensyn-audit --help</pre>
+  <h3>Verify the mirrored bytes</h3>
+  <p class="note">Pulls every piece from the provider, unpacks, concatenates, and compares BLAKE2b-256 with the digest above.</p>
+  <pre>scripts/verify.sh ${esc(s.artifact)}</pre>`;
+}
+
+function segmentView(id) {
+  const seg = D.segments[id];
+  const c = D.coverage.segments[Number(id) - 1];
+  if (!seg) return `<h2>Segment ${esc(id)}</h2><p class="measure">State: ${esc(c?.[0] ?? 'unknown')}. No accepted audits, so Gensyn's API holds no detail for it yet.</p>`;
+  const rows = D.steps.filter(s => s.segment === Number(id));
+  return `<h2>Segment ${seg.segment} <span class="badge">${esc(seg.phase)}</span> <span class="badge warn">${esc(seg.state)}</span></h2>
+  <p class="measure">Steps ${seg.firstStep.toLocaleString()} to ${seg.lastStep.toLocaleString()}. ${seg.acceptedSteps} accepted, frontier at ${seg.frontier?.step ?? '—'}. Opens from checkpoint ${seg.openingCheckpoint}, closes at ${seg.closingCheckpoint}.</p>
+  <h3>Accepted steps</h3>${rows.length ? ledgerTable(rows) : '<p class="note">None.</p>'}
+  <h3>Open claims</h3>
+  ${seg.claims?.length ? `<table><thead><tr><th>Step</th><th>Contributor</th><th>Running</th><th>Expires</th></tr></thead><tbody>${seg.claims.map(c => `<tr><td>${c.step}</td><td>${esc(c.contributor)}</td><td>${c.hoursRunning} h</td><td>${c.expiresInHours} h</td></tr>`).join('')}</tbody></table>` : '<p class="note">None.</p>'}
+  <h3>Anchors</h3>
+  <dl class="kv">
+    <dt>Opening (step ${seg.anchors.opening.step})</dt><dd class="hash"><a href="${seg.anchors.opening.explorerUrl}">${seg.anchors.opening.txHash}</a></dd>
+    <dt>Closing (step ${seg.anchors.closing.step})</dt><dd class="hash"><a href="${seg.anchors.closing.explorerUrl}">${seg.anchors.closing.txHash}</a></dd>
+  </dl>`;
+}
+
+function contributorsView() {
+  return `<h2>Contributors</h2><p class="measure">Self-reported identities from Gensyn's roll. Their steps stay provisional until the segment around them confirms.</p>
+  <div class="grid">${D.contributors.map(c => `<div class="card"><h4>${esc(c.handle)} ${c.inscribed ? '<span class="badge ok">inscribed</span>' : ''}</h4>
+    <dl class="kv"><dt>Address</dt><dd class="mono">${esc(c.eth ?? 'none')}</dd><dt>Audits</dt><dd>${c.audits.map(a => `<a href="#/step/${a.step}">${a.step}</a>`).join(', ')}</dd>
+    <dt>Hardware</dt><dd>${[...new Set(c.audits.map(a => a.hardware))].map(esc).join(' · ')}</dd></dl></div>`).join('')}</div>`;
+}
+
+function focView() {
+  const f = D.foc;
+  return `<h2>What is on Filecoin</h2>
+  <p class="measure">One data set, owned by a FilOz test wallet, on Filecoin calibration. Each row is one <code>filecoin-pin add</code>: bytes packed into a CAR, a piece CID computed, the piece added on-chain, and the provider now answering PDP challenges for it.</p>
+  <dl class="kv">
+    <dt>Network</dt><dd>${esc(f.network)}</dd>
+    <dt>Data set</dt><dd><a href="https://pdp.vxb.ai/calibration/dataset/${f.dataSet.id}">#${f.dataSet.id}</a></dd>
+    <dt>Owner</dt><dd class="mono">${esc(f.dataSet.owner)}</dd>
+    <dt>Provider</dt><dd>${f.dataSet.providerId} · ${esc(f.dataSet.providerName)} · <a href="${f.dataSet.serviceUrl}">${esc(f.dataSet.serviceUrl)}</a></dd>
+    <dt>Snapshot</dt><dd>${esc(f.generatedAt)}</dd>
+  </dl>
+  <h3>Pieces</h3>
+  <table><thead><tr><th>Kind</th><th>Step</th><th>Source</th><th>Size</th><th>BLAKE2b-256</th><th>Pieces</th></tr></thead><tbody>
+  ${D.pieces.map(p => `<tr><td>${esc(p.kind)}</td><td><a href="#/step/${p.step}">${p.step}</a></td><td class="mono">${esc(p.source)}</td><td>${gb(p.size)}</td>
+    <td class="mono">${p.blake2b256 ? short(p.blake2b256, 12) : '—'}</td><td>${p.parts.map(x => `<a class="mono" href="https://pdp.vxb.ai/calibration/piece/${x.pieceCid}">#${x.pieceId}</a>`).join(' ')}</td></tr>`).join('')}
+  </tbody></table>
+  <h3>Mirror the rest</h3>
+  <p class="measure">The full run is roughly 810 published checkpoints at 19 GB plus one 26 GB handoff per audited step. Calibration providers cap a piece at 1 GiB today, so each artifact is split into 1000 MiB parts and every part is its own on-chain piece. Nothing about the flow changes at scale except the bill.</p>
+  <pre>scripts/mirror.py --kind handoff --step NNN --source gs://gensyn-open-1b/open-1b/handoffs/step_NNN/handoff.safetensors \\
+  --data-set-id ${f.dataSet.id} ./handoff.safetensors</pre>`;
+}
+
+fetch('data.json').then(r => r.json()).then(d => { D = d; render(); addEventListener('hashchange', render); });
+</script>
+</body>
+</html>
