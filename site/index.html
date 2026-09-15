@@ -66,6 +66,8 @@ function render() {
   $('#nav').innerHTML = ['', 'ledger', 'contributors', 'foc'].map(v =>
     `<a href="#/${v}" class="${v === view ? 'on' : ''}">${v || 'record'}</a>`).join('');
   $('#app').innerHTML = (routes[view] || overview)(id);
+  const m = $('#merkle');
+  if (m) verifyMerkle(D.steps.find(x => x.step === Number(id)).receipt.proof).then(ok => { m.textContent = ok ? 'root reproduced' : 'root mismatch'; m.className = `badge ${ok ? 'ok' : 'bad'}`; });
   document.title = `open-1b · ${view || 'record'}${id ? ' ' + id : ''}`;
 }
 
@@ -181,7 +183,7 @@ function stepView(id) {
     </dl>` : '<p class="note">Mirror this step\'s artifact to get an on-chain possession proof.</p>'}</div>
   </div>
   <h3>Merkle proof · segment ${s.segment}</h3>
-  <p class="note">Leaf is the committed state hash. ${r.proof.path.length} siblings up to root <span class="hash">${r.proof.root}</span>. Gensyn has not published the node hashing rule, so this page shows the proof without recomputing it.</p>
+  <p class="note">Leaf is the committed state hash. ${r.proof.path.length} siblings up to root <span class="hash">${r.proof.root}</span>. Recomputed here with the rule from Gensyn's audit client: <code>sha256(0x00‖leaf)</code> for leaves, <code>sha256(0x01‖left‖right)</code> for inner nodes. <span id="merkle" class="badge">checking…</span></p>
   <table><thead><tr><th>Level</th><th>Side</th><th>Sibling</th></tr></thead><tbody>${r.proof.path.map(p => `<tr><td>${p.level}</td><td>${p.side}</td><td class="mono">${p.hash}</td></tr>`).join('')}</tbody></table>
   <h3>Audit this step yourself, from Filecoin</h3>
   <p class="note">The same replay Gensyn's tool runs, with the predecessor fetched from a storage provider instead of Gensyn's bucket. Apple Silicon with 40 GB or more, or a 24 GB CUDA card.</p>
@@ -193,6 +195,18 @@ gensyn-audit step ${s.step} --predecessor "${esc(predUrl)}"   # flag name illust
   <h3>Verify the mirrored bytes</h3>
   <p class="note">Pulls every piece from the provider, unpacks, concatenates, and compares BLAKE2b-256 with the digest above.</p>
   <pre>scripts/verify.sh ${esc(s.artifact)}</pre>`;
+}
+
+async function verifyMerkle(proof) {
+  const hex = (b) => [...new Uint8Array(b)].map(x => x.toString(16).padStart(2, '0')).join('');
+  const bytes = (h) => Uint8Array.from(h.match(/../g), x => parseInt(x, 16));
+  const sha = (parts) => crypto.subtle.digest('SHA-256', new Uint8Array(parts.flatMap(p => [...p])));
+  let node = new Uint8Array(await sha([[0], bytes(proof.leaf)]));
+  for (const l of proof.path) {
+    const s = bytes(l.hash);
+    node = new Uint8Array(await sha([[1], ...(l.side === 'left' ? [s, node] : [node, s])]));
+  }
+  return hex(node) === proof.root;
 }
 
 function segmentView(id) {

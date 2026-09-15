@@ -60,9 +60,14 @@ BLAKE2b-256 against the digest in Gensyn's ledger.
 - `artifact_digest` is BLAKE2b-256 of the handoff file bytes. Gensyn does not name the
   algorithm; it was found by trying candidates against a byte-identical download (MD5
   matches GCS).
-- The Merkle proof in each receipt cannot be recomputed with any standard node hashing
-  rule (SHA-256 of the pair, sorted pair, prefixed, hex-concatenated, Keccak). The site
-  displays proofs without verifying them. Worth asking Gensyn for the rule.
+- The Merkle proof in each receipt uses RFC 6962 style tagging, found in the
+  `gensyn-audit` wheel (`commitments.verify_inclusion`): `sha256(0x00 || leaf)` and
+  `sha256(0x01 || left || right)`, odd nodes promoted unchanged. The site recomputes
+  the root in the browser. All 11 receipts verify.
+- The same client says its anchors are "still placeholders": the audit tool never
+  checks a root against the on-chain transaction. The record only agrees with itself.
+- The authoritative commitments are a file, `logs/state_hashes.jsonl` in the bucket,
+  about 12 MB for the run. The API is a read-through.
 - Anchors go to "Gensyn Testnet" (chain 685685) as calldata to the dead address. They
   commit a 32-byte value; they say nothing about whether the bucket still holds the bytes.
 - Published checkpoints are ~19 GB each (150 files, some over 2 GB); handoffs are ~26 GB

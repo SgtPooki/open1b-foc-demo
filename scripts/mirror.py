@@ -39,6 +39,9 @@ def digests(path):
 
 def split(path, parts_dir, prefix):
     os.makedirs(parts_dir, exist_ok=True)
+    existing = sorted(p for p in os.listdir(parts_dir) if p.startswith(prefix + "."))
+    if existing:
+        return existing  # resume: parts already staged from an earlier run
     split_cmd = ["split", "-b", str(PART), "-a", "3", "-d", "-", f"{parts_dir}/{prefix}."]
     if os.path.isdir(path):
         tar = subprocess.Popen(["tar", "-C", os.path.dirname(path), "-cf", "-", os.path.basename(path)], stdout=subprocess.PIPE)
@@ -89,10 +92,10 @@ def main():
     }
     names = split(a.path, a.parts_dir, prefix)
     print(f"{prefix}: {len(names)} parts", flush=True)
-    meta = {"gensyn_kind": a.kind, "gensyn_step": a.step}  # provider caps metadata keys per piece
     for i, n in enumerate(names):
         p = os.path.join(a.parts_dir, n)
-        r = upload(p, a.data_set_id, {**meta, "gensyn_part": f"{i}/{len(names)}"})
+        # One custom key: the provider caps metadata keys per piece and filecoin-pin uses some itself.
+        r = upload(p, a.data_set_id, {"gensyn": f"{a.kind}:{a.step}:{i}/{len(names)}"})
         entry["parts"].append({"index": i, "size": os.path.getsize(p), **digests(p), **r})
         print(f"  part {i}/{len(names) - 1} piece #{r['pieceId']} {r['pieceCid']}", flush=True)
         os.remove(p)
